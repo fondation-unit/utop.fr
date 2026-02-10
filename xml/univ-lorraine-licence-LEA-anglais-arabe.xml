@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="">
+    <programID></programID>
+    <cdmfr:programName>
+      <cdmfr:text>Licence LEA (Langues Etrangères Appliquées) Anglais-Arabe</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://erudi.univ-lorraine.fr/lea-anglais-arabe</href>
+      <cdmfr:linkName>LEA Anglais-Arabe - Erudi - Etudes et Ressources Universitaires à DIstance</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>La formation LEA anglais-arabe s'adresse aux personnes désireuses d'approfondir leurs connaissances linguistiques dans un contexte professionnel (langue des affaires).</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Licence (LMD)"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Le diplôme permet d'intégrer directement le marché du travail, car les futurs diplômés sont formés aux réalités de l'entreprise internationale et aux enjeux des relations commerciales internationales. Ils seront capables d'exercer leurs fonctions en français, en anglais et en arabe et posséderont la culture des affaires des aires concernées. Le stage de L3 peut constituer un tremplin direct vers l'emploi.</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock>Le diplôme permet une poursuite d'études en Master LEA, ainsi que dans différents Masters de gestion et Affaires Internationales, en école de commerce, en école de traduction. Une poursuite d'études en Master d'anglais ou d'arabe est également envisageable.</infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+3"/>
+    <learningObjectives>De par la double orientation du diplôme (langues et gestion), les étudiants sont amenés à acquérir des compétences linguistiques (maîtrise de la langue des affaires dans 3 langues : français, anglais et arabe) et interculturelles (acquisition des codes sociaux des aires culturelles concernées), ainsi que des compétences en gestion et management dans un contexte international. Les étudiants issus de cette filière sont spécialisés dans l'application des langues étrangères aux besoins de l'entreprise et sont capables de travailler efficacement dans un environnement international (maîtrise des TIC ; compréhension et rédaction de documents techniques ; communication écrite et orale dans une langue fluide et adaptée au contexte ; traduction écrite et orale). </learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="OUI">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>En anglais un niveau baccalauréat est attendu ; en arabe il faut avoir des connaissances de base (ne pas être grand débutant) : connaître l'alphabet, savoir lire et écrire. La connaissance du français est obligatoire car une partie importante de la formation est dispensée dans cette langue.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup></targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Semestrialisation des examens (semestre 1 en Janvier, semestre 2 en Mai, rattrapage en Juin). Dossiers / rapports à rendre pour certaines UE</infoBlock>
+    </formOfAssessment>
+    <programDuration>Année universitaire</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock></infoBlock>
+    </cdmfr:programStructure>
+    <expenses>
+</expenses>
+    <contacts>
+	  <infoBlock>Contact : erudi-contact@univ-lorraine.fr - Nancy : Université de Lorraine - ERUDI</infoBlock>
+	  <infoBlock>Responsable de la Licence : evelyne.muller@univ-lorraine.fr - Secrétariat administratif : elodie.dupont@univ-lorraine.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>anglais</searchword>
+    <searchword>arabe</searchword>
+    <searchword>langue</searchword>
+    <searchword>civilisation étrangère</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-11-15"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

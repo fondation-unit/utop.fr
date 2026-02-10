@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="">
+    <programID></programID>
+    <cdmfr:programName>
+      <cdmfr:text>Préparation aux concours des bibliothèques - Prestation d'accompagnement à distance</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.univ-lorraine.fr/</href>
+      <cdmfr:linkName>Formation continue de l'Université de Lorraine - Préparation aux concours des bibliothèques</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Non Diplomante">
+      <infoBlock>Lorsque l'on prépare un concours à distance, il n'est pas toujours simple de maintenir ses efforts tout au long du temps de préparation, et de bien repérer quels sont les points à travailler. Cette prestation d'accompagnement à distance (PAD) vous aide à mobiliser efficacement vos efforts ; elle vous offre un accompagnement actif et personnalisé, favorisant les échanges entre les inscrits et avec les formateurs.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives></learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Être titulaire d'une licence ou d'un diplôme de niveau équivalent (requis pour présenter les concours de catégorie A)</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Personnes souhaitant préparer les concours de catégorie A des bibliothèques de l'État et de la fonction publique territoriale (conservateur, bibliothécaire)</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock></infoBlock>
+    </formOfAssessment>
+    <programDuration>80 h</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Programme :
+La formation s'appuie sur une plateforme accessible en ligne, dont les espaces d'échanges permettent de dialoguer avec les formateurs et les autres inscrits.
+Elle comprend :
+
+- des activités collectives et collaboratives permettant de bien comprendre les notions-clés des concours
+
+- des apports méthodologiques et des entraînements corrigés
+
+- une veille documentaire mensuelle sur des thématiques professionnelles et de culture générale ; l'envoi d'un ensemble de fiches de culture générale ; les supports des cours donnés dans le cadre de la préparation en présentiel de la même session ; des annales...
+
+- des échanges sous forme de conférences virtuelles avec des professionnels, afin de bien comprendre les divers aspects et les enjeux du métier. </infoBlock>
+    </cdmfr:programStructure>
+    <expenses>450 euros</expenses>
+    <contacts>
+	  <infoBlock>Contact : mathilde.barthe@univ-lorraine.fr - Nancy : Université de Lorraine http://www.fc.univ-lorraine.fr</infoBlock>
+     </contacts>
+    <infoBlock>Point fort : Un accompagnement personnalisé par des professionnels des bibliothèques et des formateurs expérimentés. Un travail collaboratif pour être plus efficace.</infoBlock>
+    <searchword>concours</searchword>
+    <searchword>bibliothèque</searchword>
+    <searchword>méthodologie documentaire</searchword>
+    <searchword>veille</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-11-15"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

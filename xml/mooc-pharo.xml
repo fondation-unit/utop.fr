@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+     <cdmfr:partnerName>
+        <cdmfr:text>UNIT</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNISCIEL</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>Université de Lille</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>École des Mines de Douai</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>Institut Mines Télécom</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="">
+    <programID></programID>
+    <cdmfr:programName>
+      <cdmfr:text>MOOC Programmation objet immersive en Pharo</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">15000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Informatique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>https://www.fun-mooc.fr/courses/inria/41010/session01/about</href>
+      <cdmfr:linkName>Programmation objet immersive en Pharo</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Pharo est un langage à objets pur, inspiré de Smalltalk, qui offre une expérience unique de développement en constante interaction avec des objets vivants. Pharo est élégant, fun à programmer et très puissant. Il est très facile à apprendre et permet de comprendre des concepts très avancés de façon naturelle. En programmant en Pharo vous êtes immergés dans un monde d'objets vivants. Vous modifiez en live sans cesse des objets qui peuvent représenter des applications web, du code lui-même, des graphismes, du réseau…
+Pharo c’est aussi un environnement libre très productif utilisé par des entreprises pour le développement d’applications Web.
+Dans ce MOOC nous présenterons plus particulièrement la pile Web de Pharo qui a la particularité de changer la manière de construire des applications Web.
+Nous allons également revisiter des concepts essentiels de la programmation en illustrant comment Pharo les utilise. Nous allons présenter des heuristiques et des Design Patterns pour mieux concevoir des applications objets. Ces concepts sont applicables dans n’importe quels langages objets.
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+4"/>
+    <learningObjectives>A travers ce MOOC :
+-vous apprendrez à programmer en Pharo,
+-vous vous immergerez dans un environnement vivant et vivrez une expérience de programmation nouvelle,
+-vous développerez une application web pour mettre en oeuvre les différentes facettes de Pharo présentées dans le cours.
+
+Ce MOOC apportera également une nouvelle vision des fondements même de la programmation objet que sont le polymorphisme et la liaison tardive.</learningObjectives>
+    <admissionInfo> 
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Ce cours est ouvert à tous</cdmfr:admissionDescription>
+      <studentPlaces>Il n’y a pas de nombre limité de places.</studentPlaces>
+      <teachingStart date="2016-05-02"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Une première expérience en programmation objet est souhaitable.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Etudiants en Licence 3, étudiants en Master, ingénieurs...</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Non"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Non"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>A l'issue du cours, une attestation de suivi avec succès sera délivrée aux participants ayant obtenu la note minimale requise.L’évaluation est basée sur les quiz à effectuer chaque semaine.
+</infoBlock>
+    </formOfAssessment>
+    <programDuration>7 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Plan du cours
+Semaine 1 : Bienvenue à bord - Découverte de la syntaxe
+Semaine 2 : Syntaxe Pharo, blocs et inspecteur
+Semaine 3 : Conception, méthodes de classes et collections
+Semaine 4 : Héritage et sélection de méthode et développement web
+Semaine 5 : Exception, débogage et réflexion
+Semaine 6 : Retour sur le lookup et conception orientée objet avancée
+Semaine 7 : Conception orientée objet et tests
+</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>gratuit</expenses>
+    <contacts>
+      <infoBlock>utop@inria.fr</infoBlock>
+      <infoBlock>contact-mooclab@inria.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>MOOC</searchword>
+    <searchword>Pharo</searchword>
+    <searchword>application web</searchword>
+    <searchword>programmation objet</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut national de recherche en informatique et en automatique</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INRIA</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-22-09"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

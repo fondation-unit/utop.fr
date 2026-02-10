@@ -1,0 +1,655 @@
+
+#comments {
+  margin-top: 15px;
+}
+.indented {
+  margin-left: 25px; /* LTR */
+}
+.comment-unpublished {
+  background-color: #fff4f4;
+}
+.comment-preview {
+  background-color: #ffffea;
+}
+
+/**
+ * @file
+ * Main stylesheet for Date module.
+ */
+
+/* Force start/end dates to float using inline-block, where it works, otherwise inline. */
+.container-inline-date {
+  clear: both;
+}
+.container-inline-date .form-item {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+.container-inline-date > .form-item {
+  display: inline-block;
+  margin-right: 0.5em; /* LTR */
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.container-inline-date .form-item .form-item {
+  float: left; /* LTR */
+}
+.container-inline-date .form-item,
+.container-inline-date .form-item input {
+  width: auto;
+}
+.container-inline-date .description {
+  clear: both;
+}
+
+.container-inline-date .form-item input,
+.container-inline-date .form-item select,
+.container-inline-date .form-item option {
+  margin-right: 5px; /* LTR */
+}
+
+.container-inline-date .date-spacer {
+  margin-left: -5px; /* LTR */
+}
+
+.views-right-60 .container-inline-date div {
+  margin: 0;
+  padding: 0;
+}
+
+.container-inline-date .date-timezone .form-item {
+  clear: both;
+  float: none;
+  width: auto;
+}
+
+/* The exposed Views form doesn't need some of these styles */
+.container-inline-date .date-padding {
+  padding: 10px;
+  float: left;
+}
+.views-exposed-form .container-inline-date .date-padding {
+  padding: 0;
+}
+
+/* Fixes for date popup css so it will behave in Drupal */
+#calendar_div,
+#calendar_div td,
+#calendar_div th {
+  margin: 0;
+  padding: 0;
+}
+#calendar_div,
+.calendar_control,
+.calendar_links,
+.calendar_header,
+.calendar {
+  border-collapse: separate;
+  margin: 0;
+  width: 185px;
+}
+
+.calendar td {
+  padding: 0;
+}
+
+/* formatting for start/end dates in nodes and views */
+span.date-display-single {
+}
+span.date-display-start {
+}
+span.date-display-end {
+}
+
+.date-prefix-inline {
+  display: inline-block;
+}
+
+.date-clear {
+  clear: both;
+  display: block;
+  float: none;
+}
+
+.date-no-float {
+  clear: both;
+  float: none;
+  width: 98%;
+}
+
+.date-float {
+  clear: none;
+  float: left;
+  width: auto;
+}
+
+/* Add space between date option checkboxes ('All day' & 'Collect End Date') */
+.date-float .form-type-checkbox{
+  padding-right: 1em;
+}
+
+/* Add space between the date and time portions of the date_select widget. */
+.form-type-date-select .form-type-select[class$=hour] {
+  margin-left: .75em; /* LTR */
+}
+
+.date-container .date-format-delete {
+  float: left;
+  margin-top: 1.8em;
+  margin-left: 1.5em;
+}
+.date-container .date-format-name {
+  float: left;
+}
+.date-container .date-format-type {
+  float: left;
+  padding-left: 10px;
+}
+
+.date-container .select-container {
+  clear: left;
+  float: left;
+}
+
+/* Calendar day css */
+div.date-calendar-day {
+  background: #F3F3F3;
+  border-top: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  color: #999;
+  float: left;
+  line-height: 1;
+  margin: 6px 10px 0 0;
+  text-align: center;
+  width: 40px;
+}
+
+div.date-calendar-day span {
+  display: block;
+  text-align: center;
+}
+div.date-calendar-day span.month {
+  background-color: #B5BEBE;
+  color: white;
+  font-size: .9em;
+  padding: 2px;
+  text-transform: uppercase;
+}
+div.date-calendar-day span.day {
+  font-size: 2em;
+  font-weight: bold;
+}
+div.date-calendar-day span.year {
+  font-size: .9em;
+  padding: 2px;
+}
+
+/* Admin styling */
+.form-item.form-item-instance-widget-settings-input-format-custom,
+.form-item.form-item-field-settings-enddate-required {
+  margin-left: 1.3em;
+}
+
+#edit-field-settings-granularity .form-type-checkbox {
+  margin-right: .6em; /* LTR */
+}
+
+.date-year-range-select {
+  margin-right: 1em;
+}
+
+
+#ui-datepicker-div {
+  font-size: 100%;
+  font-family: Verdana, sans-serif;
+  background: #eee;
+  border-right:2px #666 solid;
+  border-bottom:2px #666 solid;
+  z-index: 9999;
+  }
+  
+  /* Datepicker
+  ----------------------------------*/
+  .ui-datepicker { width: 17em; padding: .2em .2em 0; }
+  .ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+  .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+  .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+  .ui-datepicker .ui-datepicker-prev { left:2px; }
+  .ui-datepicker .ui-datepicker-next { right:2px; }
+  .ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+  .ui-datepicker .ui-datepicker-next-hover { right:1px; }
+  .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+  .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+  .ui-datepicker .ui-datepicker-title select { float:left; font-size:1em; margin:1px 0; }
+  .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+  .ui-datepicker select.ui-datepicker-month,
+  .ui-datepicker select.ui-datepicker-year { width: 49%;}
+  .ui-datepicker .ui-datepicker-title select.ui-datepicker-year { float: right; }
+  .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+  .ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+  .ui-datepicker td { border: 0; padding: 1px; }
+  .ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+  .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+  .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+  .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+  
+  /* with multiple calendars */
+  .ui-datepicker.ui-datepicker-multi { width:auto; }
+  .ui-datepicker-multi .ui-datepicker-group { float:left; }
+  .ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+  .ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+  .ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+  .ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+  .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+  .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+  .ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+  .ui-datepicker-row-break { clear:both; width:100%; }
+  
+  /* RTL support */
+  .ui-datepicker-rtl { direction: rtl; }
+  .ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+  .ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+  .ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+  .ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+  .ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+  .ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+  .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+  .ui-datepicker-rtl .ui-datepicker-group { float:right; }
+  .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+  .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+  
+
+/* Field display */
+.field .field-label {
+  font-weight: bold;
+}
+.field-label-inline .field-label,
+.field-label-inline .field-items {
+  float:left; /*LTR*/
+}
+
+/* Form display */
+form .field-multiple-table {
+  margin: 0;
+}
+form .field-multiple-table th.field-label {
+  padding-left: 0; /*LTR*/
+}
+form .field-multiple-table td.field-multiple-drag {
+  width: 30px;
+  padding-right: 0; /*LTR*/
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+  padding-right: .5em; /*LTR*/
+}
+
+form .field-add-more-submit {
+  margin: .5em 0 0;
+}
+
+
+.node-unpublished {
+  background-color: #fff4f4;
+}
+.preview .node {
+  background-color: #ffffea;
+}
+td.revision-current {
+  background: #ffc;
+}
+
+
+.search-form {
+  margin-bottom: 1em;
+}
+.search-form input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.search-results {
+  list-style: none;
+}
+.search-results p {
+  margin-top: 0;
+}
+.search-results .title {
+  font-size: 1.2em;
+}
+.search-results li {
+  margin-bottom: 1em;
+}
+.search-results .search-snippet-info {
+  padding-left: 1em; /* LTR */
+}
+.search-results .search-info {
+  font-size: 0.85em;
+}
+.search-advanced .criterion {
+  float: left; /* LTR */
+  margin-right: 2em; /* LTR */
+}
+.search-advanced .action {
+  float: left; /* LTR */
+  clear: left; /* LTR */
+}
+
+
+#permissions td.module {
+  font-weight: bold;
+}
+#permissions td.permission {
+  padding-left: 1.5em; /* LTR */
+}
+#permissions tr.odd .form-item,
+#permissions tr.even .form-item {
+  white-space: normal;
+}
+#user-admin-settings fieldset .fieldset-description {
+  font-size: 0.85em;
+  padding-bottom: .5em;
+}
+
+/**
+ * Override default textfield float to put the "Add role" button next to
+ * the input textfield.
+ */
+#user-admin-roles td.edit-name {
+  clear: both;
+}
+#user-admin-roles .form-item-name {
+  float: left; /* LTR */
+  margin-right: 1em; /* LTR */
+}
+
+/**
+ * Password strength indicator.
+ */
+.password-strength {
+  width: 17em;
+  float: right;  /* LTR */
+  margin-top: 1.4em;
+}
+.password-strength-title {
+  display: inline;
+}
+.password-strength-text {
+  float: right; /* LTR */
+  font-weight: bold;
+}
+.password-indicator {
+  background-color: #C4C4C4;
+  height: 0.3em;
+  width: 100%;
+}
+.password-indicator div {
+  height: 100%;
+  width: 0%;
+  background-color: #47C965;
+}
+input.password-confirm,
+input.password-field {
+  width: 16em;
+  margin-bottom: 0.4em;
+}
+div.password-confirm {
+  float: right;  /* LTR */
+  margin-top: 1.5em;
+  visibility: hidden;
+  width: 17em;
+}
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 38.5em;
+  border: 1px solid #B4B4B4;
+}
+div.password-suggestions ul {
+  margin-bottom: 0;
+}
+.confirm-parent,
+.password-parent {
+  clear: left; /* LTR */
+  margin: 0;
+  width: 36.3em;
+}
+
+/* Generated by user.module but used by profile.module: */
+.profile {
+  clear: both;
+  margin: 1em 0;
+}
+.profile .user-picture {
+  float: right; /* LTR */
+  margin: 0 1em 1em 0; /* LTR */
+}
+.profile h3 {
+  border-bottom: 1px solid #ccc;
+}
+.profile dl {
+  margin: 0 0 1.5em 0;
+}
+.profile dt {
+  margin: 0 0 0.2em 0;
+  font-weight: bold;
+}
+.profile dd {
+  margin: 0 0 1em 0;
+}
+
+.views-exposed-form .views-exposed-widget {
+  float: left; /* LTR */
+  padding: .5em 1em 0 0; /* LTR */
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.6em;
+}
+
+.views-exposed-form .form-item,
+.views-exposed-form .form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.views-exposed-form label {
+  font-weight: bold;
+}
+
+.views-exposed-widgets {
+  margin-bottom: .5em;
+}
+
+/* table style column align */
+.views-align-left {
+  text-align: left;
+}
+.views-align-right {
+  text-align: right;
+}
+.views-align-center {
+  text-align: center;
+}
+
+/* Remove the border on tbody that system puts in */
+.views-view-grid tbody {
+  border-top: none;
+}
+
+.view .progress-disabled {
+  float: none;
+}
+
+/* General indentation & positioning classes */
+
+.rteindent1 {
+  margin-left: 40px;
+}
+.rteindent2 {
+  margin-left: 80px;
+}
+.rteindent3 {
+  margin-left: 120px;
+}
+.rteindent4 {
+  margin-left: 160px;
+}
+.rteleft {
+  text-align: left;
+}
+.rteright {
+  text-align: right;
+}
+.rtecenter {
+  text-align: center;
+}
+.rtejustify {
+  text-align: justify;
+}
+.ibimage_left {
+  float: left;
+}
+.ibimage_right {
+  float: right;
+}
+
+.ctools-locked {
+  color: red;
+  border: 1px solid red;
+  padding: 1em;
+}
+
+.ctools-owns-lock {
+  background: #FFFFDD none repeat scroll 0 0;
+  border: 1px solid #F0C020;
+  padding: 1em;
+}
+
+a.ctools-ajaxing,
+input.ctools-ajaxing,
+button.ctools-ajaxing,
+select.ctools-ajaxing {
+  padding-right: 18px !important;
+  background: url(../images/status-active.gif) right center no-repeat;
+}
+
+div.ctools-ajaxing {
+  float: left;
+  width: 18px;
+  background: url(../images/status-active.gif) center center no-repeat;
+}
+
+.field_awesome > .form-item > div {
+  max-height : 450px;
+  overflow-y : scroll;
+  overflow-x : hidden;
+  border : 1px solid #ccc;
+  padding : 10px;
+
+}
+
+.field_awesome .form-item.active {
+  background: #9EBFEA;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.field_awesome .form-item.form-type-radio,
+.field_awesome .form-item.form-type-checkbox {
+  padding : 10px 5px;
+  display : inline-block;
+  width : 210px;
+}
+
+.field_awesome .form-item.form-type-radio label,
+.field_awesome .form-item.form-type-radio input,
+.field_awesome .form-item.form-type-checkbox input,
+.field_awesome .form-item.form-type-checkbox label {
+  cursor : pointer;
+}
+
+/**
+ * @file
+ * Front-end styling for the display of webforms.
+ */
+ input.webform-calendar {
+  display: none;
+  padding: 3px;
+  vertical-align: top;
+}
+html.js input.webform-calendar {
+  display: inline;
+}
+.webform-container-inline label {
+  display: inline;
+  margin-right: 1em;
+}
+.webform-container-inline div,
+.webform-container-inline div.form-item {
+  display: inline;
+}
+.webform-container-inline div.description {
+  display: block;
+}
+.webform-container-inline div.messages {
+  display: block;
+  float: left;
+}
+.webform-container-inline div.ajax-progress-bar div {
+  display: inherit;
+}
+.webform-container-inline.webform-component-textarea label {
+  vertical-align: top;
+}
+.webform-container-inline.webform-component-textarea .form-textarea-wrapper {
+  display: inline-block;
+}
+.webform-component-textarea .grippie {
+  display: block;
+}
+.webform-progressbar {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.webform-progressbar-inner {
+  height: 1em;
+  background-color: #74C421;
+  height: 3px;
+}
+.webform-progressbar-outer {
+  position: relative;
+  border: 1px solid #356900;
+  width: 100%;
+  height: 3px;
+  margin: 0.35em -1px 2em;
+  background-color: white;
+}
+.webform-progressbar-page {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  margin: -6px -4px;
+  border: 1px solid #356900;
+  background-color: white;
+  border-radius: 5px;
+}
+.webform-progressbar-page.completed {
+  background-color: #74C421;
+}
+.webform-progressbar-page.current {
+  background-color: #74C421;
+}
+.webform-progressbar-page .webform-progressbar-page-number {
+  display: none;
+}
+.webform-progressbar-page .webform-progressbar-page-label {
+  position: relative;
+  top: 10px;
+  margin: 0 -10em;
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+	  <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation>
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Télédétection radar : principes et applications</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">H</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Ingénieurs et cadres de l'industrie</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.ensg.eu/Catalogue-des-formations-continues</href>
+      <cdmfr:linkName>Catalogue des formations continues ENSG</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>L'imagerie radar permet un apport considérable d'information en complément de celle apportée par l'imagerie optique. Cette formation dresse une vue d'ensemble des modalités techniques de génération des images radar, permettant ainsi d'appréhender toute l'ampleur de l'apport de la télédétection radar dans certaines applications continentales, au-delà de ce que peut apporter l'imagerie optique. Au cours de la formation seront abordés les systèmes actuels exploitables.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>La formation permet de comprendre les particularités des images radar et la façon de les aborder pour compléter, voire remplacer, les interprétations d'images optiques.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="M1808" romeLibel="Information géographique"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Avoir une vue d'ensemble des modalités techniques de génération des images radar ; comprendre la complémentarité avec l'imagerie optique.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Justifier un intérêt technique pour le sujet.</cdmfr:admissionDescription>
+      <studentPlaces>15</studentPlaces>
+      <teachingStart date="2017-06-07"/>
+      <registrationDeadline date="2017-06-07"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Etre familier de la notion d'image numérique.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Technicien supérieur, ingénieur, toute personne souhaitant savoir commenter et exploiter l'imagerie radar.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Évaluation par méthode active.</infoBlock>
+    </formOfAssessment>
+    <programDuration>2 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation d'environ 2 semaines en e-learning (équivalente à 2 jours temps plein présentiel). 
+- Vue d'ensemble sur les modalités techniques de génération des images radar
+- Géométrie des images
+- Intérêt des images radar dans diverses applications continentales.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>610€</expenses>
+    <contacts>
+      <infoBlock>ENSG 6-8 avenue Blaise Pascal - Champs-sur-Marne 77455 Marne La Vallée formationcontinue@ensg.eu</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>géomatique</searchword>
+    <searchword>géométrie</searchword>
+    <searchword>image numérique</searchword>
+    <searchword>image satellite</searchword>
+    <searchword>optique</searchword>
+	<searchword>radar</searchword>
+	<searchword>télédétection</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale des Sciences Géographiques</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENSG</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

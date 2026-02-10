@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>IUT en Ligne, CCI de Grenoble, Réseau Club Alpin</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>ÉcoRSE, pour une écologie responsable sociale de l'entreprise et des territoires.</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53504</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Aménagement et environnement</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.grenoble.cci.fr</href>
+      <cdmfr:linkName>Le portail de la Chambre de commerce et d'industrie de Grenoble</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Cette formation est le volet développement des compétences du projet assuré par la CCI de Grenoble. Pour ce faire, une convention entre la fondation UNIT/UTOP et la Chambre de Commerce de la ville de Grenoble a été établie.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Après avoir suivi cette formation les stagiaires, les décideurs en un et les opérationnels en deux, devront maîtriser les compétences suivantes : 1.Renforcer la compréhension des enjeux de développement économiques, sociaux et environnementaux. Savoir croiser les informations en s'appuyant sur le diagnostic et les outils de décisions écoRSE. 2.Savoir mettre en oeuvre et adapter et adapter leur pratique professionnelle aux enjeux croisés du territoire, enjeux de développement, enjeux sociaux et environnementaux.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Cette formation doit permettre aux apprenants, qu'ils soient décideurs sur le territoire ou acteurs opérationnels de : 1.S'appuyer sur les référentiels internationaux (RSE, OCDE, GRI) et sur le diagnostic écoRSE pour comprendre les spécificités du territoire et ainsi répondre au plus près des besoins de la population 2.Comprendre les enjeux de développement économique, social et environnemental en s'appuyant sur le diagnostic et les outils des décisions écoRSE.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Les publics visés étant tous les acteurs du développement local, il n'y a pas de conditions restrictives pour accéder à cette formation dès lors qu'ils appartiennent au secteur d'activité, soit :- pour les élus et leurs équipes, connaissance des contraintes de leur territoire.- pour les opérationnels, connaissance et contraintes de leur métier. La formation s'adapte à ce large public, tout en conservant la possibilité de recevoir des apprenants à haut niveau d'études.</cdmfr:admissionDescription>
+      <studentPlaces>12 par session</studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Un niveau équivalent à BAC + 2 est souhaitable</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Compte tenu de la nature de la formation, les périodes FOAD peuvent se dérouler chez le stagiaire ou des lieux dédiés en fonction des demandes et des intérêts des collectivités territoriales.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Les personnes cibles sont les décideurs (élus et responsables de la politique territoriale), les techniciens exploitants et les futurs recrutés (techniciens, ingénieurs, responsables markéting), agents de l'état et décideurs politiques locaux. Plus spécifiquement : les élus et équipes municipales (adjoints et conseillers municipaux), les opérationnels des services des collectivités (DGS, directeurs de service et membres de leurs équipes, les responsables des politiques territoriales (urbanisme, route, développement économique, etc.), les filières métiers montagne (remontées mécaniques, hébergement, école de ski, office de tourisme, etc.), l'économie de support et les partenaires au projet écoRSE (EDF, banques, ..) pour leurs cadres et techniciens et partenaires.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>La formation "blended learning" s'effectuant en face à face d'une part et en FOAD d'autre part, les acquis des compétences des séances à distances sont systématiquement validées par des quiz. ainsi, les auteurs peuvent les valider, ce qui entraine la délivrance d'une qualification de a part de la fondation UNIT.</infoBlock>
+    </formOfAssessment>
+    <programDuration>Équivalent 40 heures en face à face.</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>La formation est assurée conjointement par : 1.La fondation UNIT possédant son numéro d'agrément, consortium mis en place sous l'égide du Ministère de l'Enseignement Supérieur et de la Recherche et fort de sa centaine d'établissements d'enseignements supérieurs, 2.La Chambre de Commerce et de l'Industrie de Grenoble, possédant elle aussi son numéro d'agrément. Elle s'appuie sur le réseau du Club Euro Alpin pour ses experts opérationnels écoRSE.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2 700 € HT</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Pour la CCI, Francis Fiesinger (tél 04 76 28 29 55), pour UNIT/UTOP, Thierry Buvat (tél 06 07 54 74 93)</infoBlock>
+	  <infoBlock>Contact administratif : Patricia Berche pour UNIT (tél 03 44 23 79 89) ou CCI de grenoble</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>écologie responsable</searchword>
+    <searchword>économie sociale</searchword>
+    <searchword>développement durable</searchword>
+    <searchword>entreprise</searchword>   
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Fondation UNIT</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-06-08"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

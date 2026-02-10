@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Télécom ParisTech, ENTE, Université de Lorraine</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Découverte du e-learning</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Réféntiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">59100</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Sciences de l'éducation</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://dpafutop.wp.mines-telecom.fr/formation/decouverte-du-elearning/</href>
+      <cdmfr:linkName>Découverte du e-Learning</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré: LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Nous proposons de vivre de l'intérieur une formation à distance afin d'en décortiquer les rouages et de concrétiser votre projet. Nous vous donnerons des clés permettant une réflexion sur votre futur rôle (tuteur, concepteur, responsable de formation, etc.)</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visées par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Attestation de formation spécialisée (AFS)"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock>Formation approfondie sur le tutorat
+		Formation approfondie sur la conception de formation à distance
+		Formation  approfondie en pédagogie</infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <learningObjectives>Vivre une expérience d'apprenant à distance tout en permettant de :
+	- Identifier et expliquer les caractéristiques de la FAD
+	- Analyser une FAD
+	- Déterminer les leviers motivationnels de l'apprentissage
+	- Comprendre les mécanismes d'apprentissage en ligne
+	- Manier les outils numériques d'apprentissage, de communication, de travail collaboratifdans une formation à distance
+	- Différencier les outils techniques et leurs usages pédagogiques
+	- Identifier les fonctions et postures du tuteur
+	- Construire votre rôle en FAD
+	- Capitaliser vos expériences d'apprenant à distance en vue de concrétiser votre projet auprès de votre institution
+	</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Avoir une activité d'enseignement ou jouer un rôle dans une modalité de formation à distance</cdmfr:admissionDescription>
+      <studentPlaces>24</studentPlaces>
+      <teachingStart date="2 sessions par an : printemps et automne"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Débuter en formation à distance</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>A distance. Une journée de regroupement à Télécom ParisTech, 46 rue Barrault 75013 Paris</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Participants actuels ou futurs d'un projet de formation à distance (FAD)</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Facultatif"/>
+    <formOfAssessment>
+      <infoBlock>L'évaluation des connaissances et compétences acquises se font suivant plusieurs critères : 
+	  - La participation aux échanges sur le forum, lors des débats synchrones et la journée de regroupement
+	  - La réalisation de travaux individuels et de groupe
+	  - La réalisation des Quizz
+</infoBlock>
+    </formOfAssessment>
+    <programDuration>6 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation à distance tutorée avec des rendez-vous en ligne et une journée de regroupement à Paris (24h de formation réparties sur 6 semaines).
+	  La formation ou` vous serez mis en position d'apprenant à distance se déroule suivant 6 modules dont un module optionnel :
+	  - M1 : Accueil : qui suis-je ? Qui sont-ils ?
+	  - M2 : Qu'est-ce qu'une formation en ligne ?
+	  - M3 : La motivation en formation
+	  - M4 : Démarche pédagogique et outils numeériques
+	  - M5 : Synthèse des acquis et perspectives
+	  - Module optionnel : Mon rôle / Mon projet</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>Tarifs de la formation : 
+	- Entreprise : 1077 €
+	- Institutions extérieures à l'IDEFI uTOP : 977 €
+	- Partenaires de l'IDEFI uTOP : 877 €
+	Tarif dégressif dès le deuxième inscrit d'une institution
+	</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Aude Pichon tél:02 51 85 86 86 mél:Aude.Pichon@mines-nantes.fr </infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>sensibilisation au e-learning</searchword>
+    <searchword>formation à distance</searchword>
+    <searchword>développement professionnel des enseignants</searchword>
+    <searchword>pédagogie</searchword>
+    <searchword>TICE</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École des Mines de Nantes</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>Mines Nantes</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

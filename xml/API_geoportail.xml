@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation>
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Formation API Géoportail</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">H</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Ingénieurs et cadres de l'industrie</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.ensg.eu/Catalogue-des-formations-continues</href>
+      <cdmfr:linkName>Catalogue des formations continues ENSG</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Dans le cadre de la mise en œuvre du Géoportail, l'IGN met à disposition une API dite « API Géoportail ». L'API Géoportail est un moyen simple, performant et peu coûteux de diffuser de l'information géoréférencée sur le Web. Elle permet, notamment, d'intégrer les couches de données du Géoportail dans un site Web via un client cartographique. L'API Géoportail est disponible dans deux langages de programmation : Java Script, Flash/Flex. Cette formation à distance sur l'API Géoportail est proposée dans le langage Java Script</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>La formation proposée permet tout d'abord de s'approprier les caractéristiques du Géoportail, avant d'apprendre les intérêts et les moyens d'y ajouter ses propres API (Application Programming Interface) afin de diffuser ses informations géographique ou géoréférencées. La formation s'appuie sur des travaux pratiques afin de solidifier les acquis théoriques.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="M1808" romeLibel="Information géographique"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>- Connaître et comprendre l'API Géoportail pour l'intégrer dans ses projets
+	- implémenter l'API Géoportail dans un contexte métier.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Justifier un intérêt technique pour le sujet.</cdmfr:admissionDescription>
+      <studentPlaces>15</studentPlaces>
+      <teachingStart date="2017-03-21"/>
+      <registrationDeadline date="2017-03-21"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Connaissance et/ou expérience dans le domaine de programmation ; connaissance des principaux langages de programmation du Web (HTML, CSS, JavaScript). Utilisation du Géoportail.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Toute personne impliquée dans la mise en œuvre, le développement ou la maintenance d'une cartographique Web ou intranet.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Série d’exercices de travaux pratiques se déroulant tout au long du cursus, corrigés par le tuteur.</infoBlock>
+    </formOfAssessment>
+    <programDuration>1 semaine</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation de 1 semaine en e-learning (équivalente à 1 jour temps plein présentiel).
+	 - Partie théorique : 
+		Contexte / Le Géoportail et l'infrastructure Géoportail
+		1 - Présentation du Géoportail
+		2 - Le Géoportail et la directive INSPIRE
+		3 - L'infrastructure du Géoportail, ses données et services en réseau
+		Les APIS du Géoportail
+		4 - Qu'est-ce qu'une API ? 
+		5 - Les APIS Géoportail (Bibliothèque d'accès, extension OpenLayers 3, SDK)
+		6 - Pourquoi utiliser une API Géoportail ?
+		7 - Comment utiliser une API Géoportail ? 
+	- Travaux pratiques : 
+		Le logiciel RTKlib
+		1 - Configurer l'environnement de travail
+		2 - Afficher sa première carte avec les APIs Géoportail
+		3 - Paramétrer finement l'affichage initial
+		4 - Ajouter des couches de données externes (KML, GPX, WMS, WFS)
+		5 - Ajouter des outils à la carte (positionnement, mesure, croquis, etc.)</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>410€</expenses>
+    <contacts>
+      <infoBlock>ENSG 6-8 avenue Blaise Pascal - Champs-sur-Marne 77455 Marne La Vallée formationcontinue@ensg.eu</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>cartographie</searchword>
+    <searchword>carte</searchword>
+    <searchword>API</searchword>
+    <searchword>géomatique</searchword>
+    <searchword>géoportail</searchword>
+	<searchword>information géographique</searchword>
+	<searchword>INSPIRE</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale des Sciences Géographiques</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENSG</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

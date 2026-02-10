@@ -1,0 +1,103 @@
+/* uTOP gestion affichage des Ã©lÃ©ments de blog (view + article) */
+
+
+
+/*views*/
+.views-blog-row{
+
+  width:250px;
+  height:450px;
+  padding:10px;
+  margin:10px;
+  /*border:solid 1px #CCC;*/
+  float:left;
+  
+  }
+  .views-blog-row .views-field-title{
+  float:left;
+  font-size:16px;
+  width:180px;
+  border-left:solid 1px #CCC;
+  padding:5px;
+  min-height:52px;
+  margin-bottom:5px;
+  }
+  .views-blog-row .views-field-field-date-publication-billet-1{
+  float:left;
+  width:50px;
+  text-align:center;
+  }
+  .views-blog-row .views-field-field-date-publication-billet-1 .jour{
+  font-size:22px;
+  }
+  .views-blog-row .views-field-field-date-publication-billet-1{
+  font-size:14px;
+  }
+  .views-blog-row .views-field-body h1,.views-blog-row .views-field-body h2,.views-blog-row .views-field-body h3{
+  font-size:14px;
+  
+  }
+  
+  
+  /*page billet de blog*/
+  .node-billet-de-blog .content{
+  font-size:+1.25em;
+  }
+  
+  .blog-content{
+  min-height:350px;
+  
+  }
+  .node-billet-de-blog .field-name-body {
+  min-height:450px;
+  }
+  
+  .blog-content .field-name-body ul{
+  list-style-type: disc;
+  
+      margin-left: 1em;
+      padding-left: 1em;
+  
+  }
+  
+  .blog-content .field-name-body ul li{
+  padding-left:0;
+  }
+  
+  .blog-content .field-name-field-vignette {
+  float:left;
+  margin-right:20px;
+  margin-bottom:20px;
+  }
+  
+  .info-publication-blog{
+  border-top:solid 1px #CCC;
+  padding:2px;
+  width:100%;
+  margin:15px 0;
+  }
+  
+  .info-publication-blog .field-name-field-auteur{
+  border-right:solid 1px #CCC;
+  
+  }
+  
+  .info-publication-blog span{
+  float:left;
+  width:49%;
+  text-align:center;
+  min-width:50px;
+  padding-top:5px;
+  margin-bottom:20px;
+  }
+  
+  .blog-content .field-name-field-diapo-image{
+  width:450px;
+  margin: 0 auto;
+  }
+  
+  .blog-content a{
+  color:#DE0075;
+  }
+  
+  

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNIT</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNISCIEL</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>AUNEGE</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNF3S</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>UOH</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>ENS Cachan</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>HEC Paris</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>Université Paris Ouest</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnerName>
+        <cdmfr:text>Université de Nice</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>MOOC COURLIS : COURs en LIgne de Statistique appliquée</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>https://courlis-pf.univ-lorraine.fr/</href>
+      <cdmfr:linkName>MOOC COURLIS : COURs en LIgne de Statistique appliquée</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Possibilité d'obtention d'un Diplôme Inter-Universitaire des universités partenaires">
+      <infoBlock>La formation est orientée vers les usages pratiques de la statistique, seuls les éléments théoriques indispensables sont abordés. Aucune démonstration théorique n’est demandée. Il ne s’agit pas d’une formation mathématique mais de l’usage appliqué de la statistique dans les domaines des sciences de l’ingénieur, de la santé, de l’économie-gestion et des sciences humaines.
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Certification"/>
+      <cdmfr:degree degree="Diplome"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+3"/>
+    <learningObjectives>Permettre aux apprenants d’avoir les compétences pour la mise en œuvre des techniques statistiques de base tant à titre individuel qu’en travail collectif pour la conduite d’un projet d’étude statistique.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date="2016-09-19"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Une expérience d’usage des statistiques (sans justification de niveau). Les enseignements supposent que les apprenants ont été confrontés à des expériences d’usage des statistiques.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation entièrement à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Le MOOC est ouvert et gratuit, avec une inscription pédagogique en ligne. Cette  inscription est de nature fonctionnelle et non administrative. Le niveau des enseignements suppose que les apprenants ont un niveau de type baccalauréat et sont confrontés à des expériences d’usage de la  statistique</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Des activités comme des évaluations formatives, la tenue d’un blog personnel, des wikis et des devoirs personnels complètent la formation. L’interactivité entre apprenants et enseignants est assurée par des moyens asynchrones : forum, courriel… et synchrones : webinaires.
+      Une attestation de suivi est délivrée par le responsable pédagogique (Université de Lorraine) des enseignants de COURLIS. C’est le justificatif du travail effectué sur le MOOC. La fourniture de cette attestation est payante, au prix est de 100 euros en 2013-2014. Elle ne peut être en aucun cas être considérée comme un diplôme, mais elle atteste le suivi des enseignements</infoBlock>
+    </formOfAssessment>
+    <programDuration> 13 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Plan de la formation
+    Semaine 1 : Découverte de la plateforme
+    Semaine 2 : Les différents problèmes abordés. Métrologie
+    Semaine 3 : Dictionnaires, nomenclatures, classifications, ontologies
+    Semaine 4 : Collecte des données. Échantillonnage et types d'enquêtes
+    Semaine 5 : Construire un questionnaire
+    Semaine 6 : La statistique descriptive
+    Semaine 7 : Probabilités et lois de probabilité
+    Semaine 8 : Estimation
+    Semaine 9 : Tests statistiques (partie 1/2)
+    Semaine 10 : Tests statistiques (partie 2/2)
+    Semaine 11 : Séries chronologiques
+    Semaine 12 : Écrire un rapport statistique
+    Semaine 13 : Analyse des données, fouille de données</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>gratuit
+       Un diplôme d’université est délivré après réussite à l’examen de certification par l’Université de Lorraine ou de Nice. Pour l’année 2013-2014, le montant des droits d’inscription est de 300€.
+</expenses>
+    <contacts>
+	  <infoBlock>Contact administratif : Commenville Denise denise.commenville @ univ-lorraine.fr 03.83.59.59.86</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>statistique appliquée</searchword>
+    <searchword>probabilités</searchword>
+    <searchword>rapport statistique</searchword>
+    <searchword>analyse de données</searchword>
+    <searchword>fouille de données</searchword>
+	  <searchword>métrologie</searchword>
+    <searchword>MOOC</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-10-23"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

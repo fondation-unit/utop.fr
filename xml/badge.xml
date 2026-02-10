@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>AFNOR Compétences</cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>     
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>3 projets en entreprise en alternance de la formation : Évaluation de l’incertitude de mesure d’un processus de mesure de l’entreprise, validation de méthode ou capabilité de processus de mesure de l’entreprise, audit du système de management de la mesure de l’entreprise. Stage obligatoire d'une durée de 6 mois</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="0590342B">
+    <programID>0590342B</programID>
+    <cdmfr:programName>
+      <cdmfr:text>BADGE Métrologie Industrielle</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">30000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Sciences et technologie industrielles</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS">6</cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS">Ingénierie et technologies</cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97">5AM</cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97">Université 2nd cycle, écoles niveau licence-maitrise</cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">E</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Industries de process</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE">L</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE">LABEL CONFERENCE GRANDES ECOLES</cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.boutique-formation.afnor.org/2015/metrologie-laboratoires-d-analyses-d-essais-et-accreditation/metrologie-et-accreditation-iso-cei-17025/metiers-de-la-metrologie-et-cursus-diplomant/c0157</href>
+      <cdmfr:linkName>BADGE® Métrologie industrielle de l'École Nationale Supérieure des Mines de Douai</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>La pratique de la métrologie industrielle requière l'assimilation de connaissances scientifiques et techniques et la maîtrise de compétences professionnelles qu'il est important de valider par une qualification professionnelle reconnue par les industriels. Chacun des deux partenaires a constaté un besoin de reconnaissance et de développement des compétences au sein des publics formés, notamment pour la fonction de responsable métrologie. Le programme pédagogique structurant cette formation certifiante de type BADGE* présente deux thématiques fortes : le traitement des résultats de mesure et le pilotage du système de management au sein duquel la fonction mètrologie évolue. Le volume horaire de cette nouvelle formation positionne ce programme au titre d'une spécialisation. A l'issue de cette formation, vous serez en capacité d'exploiter tout résultat de mesure en vue d'évaluer l'incertitude de mesure issue d'un processus de mesure et d'en démontrer la capabilité et d'organiser la fonction métrologie de l'entreprise au regard du besoin mesure identifié.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Compétences de base : normes qualité, dispositifs d'agréments et certification, techniques d'audit, méthodes de résolution de problèmes, métrologie, analyse statistique. 
+		Compétences spécifiques : évaluation d’incertitude, calcul de capabilité, choix d’un processus de mesure, déclaration de conformité d’une produit, sélection de fournisseurs, organisation de la fonction métrologie, audit de cette fonction.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="25">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Autre diplôme"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Permettre de prendre en charge la fonction métrologie de l’entreprise</infoBlock>
+        <cdmfr:romeData romeCode="53212" romeLibel="Cadre technique de contrôle-qualité"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock>Mastère Spécialisé en Systèmes de Mesure et Métrologie</infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+3"/>
+    <learningObjectives>Former des salariés d’entreprise, possédant une expérience de base en service de contrôle ou qualité et susceptibles de prendre en charge la fonction métrologie de l’entreprise.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Oui">Niveau II ou niveau III + 3 ans d’expérience professionnelle ou niveau IV + 5 ans d’expérience professionnelle</cdmfr:admissionDescription>
+      <studentPlaces>12</studentPlaces>
+      <teachingStart date="2015-09-15"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Techniciens qui occupent des fonctions liées à la qualité : système qualité, assurance qualité, contrôle qualité…</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Douai et Plaine Saint-Denis</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Le personnel technique travaillant :
+- au sein d'entreprises industrielles, de sociétés de services... en relation avec différents intervenants : production, méthodes, études, clients, fournisseurs, auditeurs, sous-traitants...,
+- dans les secteurs : travail des métaux, plasturgie, aéronautique, agroalimentaire, chimie...
+ </targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>DS, évaluations de TP, soutenance de projet. Le BADGE est obtenu si la moyenne générale est au moins égale à 12 sur 20</infoBlock>
+    </formOfAssessment>
+    <programDuration>250 h (dont 30% à distance)</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Alternance de 4 jours par mois pendant 7 mois. Formation répartie sur 2 centres (Douai et Plaine Saint-Denis)
+30% de la formation se déroule à distance</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>9500 € net</expenses>
+    <contacts>
+      <infoBlock>Responsable de formation : Richard DYBIAK (Mines Douai)</infoBlock>
+	   <infoBlock>Contact administratif  : Dominique MOUGIN (Afnor Compétences)</infoBlock>
+     </contacts>
+    <infoBlock>Mise en pratique des outils développés au cours du programme de formation via les 3 projets tutorés portant sur les thématiques "incertitude de mesure", "validation de méthode" et audit de la fonction métrologie".</infoBlock>
+    <searchword>métrologie</searchword>
+    <searchword>incertitude</searchword>
+    <searchword>capabilité</searchword>
+    <searchword>mesure</searchword>
+    <searchword>validation de méthode</searchword>
+	<searchword>qualité</searchword>
+	<searchword>accréditation</searchword>
+	<searchword>audit</searchword>
+	<searchword>ISO 17025</searchword>
+	<searchword>ISO 10012</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale Supérieure des Mines de Douai</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>EMD</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-06-18"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>DUAP Maintenance et production</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.fc.univ-lorraine.fr</href>
+      <cdmfr:linkName>Formation continue de l'Université de Lorraine</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Le D.U.A.P. valide une compétence précise, alliant des bases 2 théoriques à une pratique professionnelle. La compétence peut s'inscrire dans une ou plusieurs des logiques suivantes :
+- Elargissement, approfondissement, actualisation de compétences
+- Aptitude à la tenue d'un poste de travail dans une démarche d'assurance qualité
+- Etape vers un diplôme par capitalisation
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Application concrète du SMED
+    Gestion de la maintenance assistée par ordinateur.
+    Indicateurs et tableaux de bord
+    Introduction à la Maintenance
+    Maintenance basée sur la fiabilité
+    Méthodes et outils de la gestion de production
+    Mise en place d'équipes autonomes
+    Total Productive Maintenance</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="DUAP"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <levelCode codeSet="BAC+2"/>
+    <learningObjectives></learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>- détenir au minimum un diplôme Bac et avoir une expérience professionnelle en rapport avec l'objet de la demande d'au moins 5 ans
+ou
+- détenir au minimum un diplôme Bac + 2 ou un titre homologué niveau III, et avoir une expérience professionnelle en rapport avec l'objet de la demande d'au moins 3 ans</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation à distance. Regroupements si possible pour présenter puis valider les modules et réaliser, si nécessaire, les travaux pratiques.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup></targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Contrôles obligatoires d'aptitude en fin de cursus (test, projet, soutenance, mémoire). Des contrôles intermédiaires peuvent également être organisés.</infoBlock>
+    </formOfAssessment>
+    <programDuration>32 heures</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>La formation comprend 8 modules de 30 à 35 heures sur une année universitaire :
+1.Introduction à la Maintenance
+2.Application concrète du SMED
+3.Méthodes et outils de la gestion de production
+4.Total Productive Maintenance
+5.Gestion de la maintenance assistée par ordinateur.
+6.Maintenance basée sur la fiabilité
+7.Indicateurs et tableaux de bord
+8.Mise en place d'équipes autonomes</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2 240 euros comprenant : les frais d'inscription à l'Université (environ 200 euros) et l'accès aux 8 modules de formation du diplôme</expenses>
+    <contacts>
+	  <infoBlock>Contact administratif : Remy Sandra sandra.remy @ univ-lorraine.fr 03.83.68.51.24</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>gestion de production</searchword>
+    <searchword>maintenance</searchword>
+    <searchword>assurance qualité</searchword>
+    <searchword>SMED</searchword>
+    <searchword>Total Productive Maintenance</searchword>
+	<searchword>tableau de bord</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-10-23"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

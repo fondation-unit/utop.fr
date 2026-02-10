@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNIT</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>MOOC « Bioinformatique : algorithmes et génomes » - session 2</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31410</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Bio-informatique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>https://www.fun-mooc.fr/courses/inria/41007/session01/about</href>
+      <cdmfr:linkName>Bioinformatique : algorithmes et génomes</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Ce cours montre comment l’informatique contribue à l’interprétation du «  texte » des génomes. Il aborde le codage et l’exploitation par la cellule de l’information génétique, la prédiction de gènes, la comparaison de séquences, la reconstruction d’arbres phylogénétiques. Les algorithmes de base impliqués dans ces démarches seront présentés. 
+
+NOUVEAU dans cette session : grâce à un outil dédié (notebooks iPython), vous aurez la possibilité de faire exécuter les algorithmes présentés et d’apprécier ainsi leur pertinence sur des données réelles. Et si vous souhaitez aller encore plus loin, cet outil vous permettra de modifier les programmes écrits en Python qui mettent en œuvre les algorithmes, voire d’en écrire de nouveaux et de les tester.
+
+Une attestation de suivi sera délivrée sous réserve d'obtention d'un score minimal de 60% aux quiz proposés.
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC et moins"/>
+    <learningObjectives>Les différentes séances apporteront les connaissances nécessaires à la compréhension des entités et processus biologiques impliqués dans la génomique et proposeront conjointement une introduction à l’algorithmique sur les séquences de caractères qui, dans ce contexte, représentent l’information génétique.
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Aucune. Ce cours est ouvert à tous</cdmfr:admissionDescription>
+      <studentPlaces>Ce cours est massivement ouvert. Il n’y a pas de nombre limité de places.</studentPlaces>
+      <teachingStart date="2016-06-12"/>
+      <registrationDeadline date="2016-06-12"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Une culture scientifique de niveau bac scientifique facilitera la compréhension des notions abordées</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>En ligne</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Ce cours s’adresse à toute personne souhaitant découvrir l’analyse informatique de l’information génétique et acquérir les notions de base à l’interface de la génomique et de l’algorithmique
+</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Non"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Non"/>
+    <formOfTeaching org="formDist" method="Facultatif"/>
+    <formOfAssessment>
+      <infoBlock>Des quiz et des exercices sont associés aux différentes séquences de cours. Les algorithmes présentés dans le cours seront implémentés en Python et pourront être exécutés via un outil dédié (des notebooks iPython). Grâce à cet outil, vous aurez la possibilité de modifier les algorithmes voire d'en écrire de nouveau.</infoBlock>
+    </formOfAssessment>
+    <programDuration>7 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Semaine 1 : ADN et séquences génomiques
+Semaine 2 : Gènes et protéines
+Semaine 3 : Prédiction des gènes
+Semaine 4 : Comparaison de séquences
+Semaine 5 : Arbres phylogénétiques</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>Gratuit</expenses>
+    <contacts>
+      <infoBlock>utop@inria.fr et/ou contact-mooclab@inria.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>MOOC</searchword>
+    <searchword>bioinformatique</searchword>
+    <searchword>algorithmique</searchword>
+    <searchword>génomique</searchword>
+    <searchword>génome</searchword>
+	<searchword>algorithme</searchword>
+	<searchword>Rechenmann</searchword>
+	<searchword>ADN</searchword>
+	<searchword>code génétique</searchword>
+	<searchword>séquence</searchword>	
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut national de recherche en informatique et en automatique</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INRIA</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-19"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

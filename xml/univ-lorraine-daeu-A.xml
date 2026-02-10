@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Campus Pegasus</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>DAEU A (Diplôme d’accès aux études universitaires)</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.univ-lorraine.fr/notre-offre/diplomes/</href>
+      <cdmfr:linkName>Formation continue de l'Université de Lorraine</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>DAEU A : filière Littéraire
+Le campus numérique PEGASUS, ce sont :
+- les compétences associées de 8 universités françaises pour vous proposer un soutien personnalisé à distance
+- une nouvelle plateforme numérique interactive spécialement dédiée aux candidats du DAEU
+- un accompagnement administratif (inscription, gestion de votre dossier de formation continue, paiement des droits)
+- un encadrement pédagogique (regroupement en présentiel, tutorat personnalisé, forum)
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="DAEU"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC"/>
+    <learningObjectives>Vous n'avez pas le BAC ? Vous pouvez obtenir son équivalent grâce au DAEU.
+Accessible à partir du niveau 1ère, il permet de s'inscrire aux formations universitaires.
+• Valider et valoriser vos compétences pour faciliter une évolution professionnelle ou pour vous outiller dans une recherche d’emploi
+• Accéder aux formations post-bac proposées par les établissements d’enseignement supérieur et par les organismes de Formation Professionnelle
+• Se présenter à des concours exigeant le baccalauréat (Niveau IV)</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date="2016-06-01"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>- Etre non bachelier
+- Avoir interrompu ses études depuis au moins 2 ans
+ET
+- Soit avoir au moins 20 ans au 1er octobre de l'année de l'examen et justifier de deux années d'activité professionnelle salariée ou d'une activité ayant donné lieu à deux années consécutives de cotisation à la sécurité sociale
+- Soit avoir 24 ans ou plus au 1er octobre de l'année de l'examen
+- Pour les candidats étrangers, permis de séjour en cours de validité au 31 octobre de l'année de l'examen
+- Tests de positionnement et entretien préalable pour l'admission</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock></infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup></targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock></infoBlock>
+    </formOfAssessment>
+    <programDuration>255 heures</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>- 2 matières obligatoires comprenant chacune 2 modules de 40 heures de niveau successif
+- 2 options à choisir (modules de 40 heures) parmi 22 modules
+- 1 module de méthodologie préalabe
+- des échanges par courriel et par forum</infoBlock>
+    </cdmfr:programStructure>
+    <expenses></expenses>
+    <contacts>
+	  <infoBlock>Contact administratif : Michel Marion marion.michel@univ-lorraine.fr 03 83 68 40 20</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>DAEU</searchword>
+    <searchword>lettres</searchword>
+    <searchword>sciences humaines</searchword>
+    <searchword>Pegasus</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-10-23"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

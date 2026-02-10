@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Université de Lorraine, Biomimicry Europa, Institut Inspire, Greenloup, Fondation UNIT</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+	  <cdmfr:partnershipType partnershipValueSet="International"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>Chacun des participants ayant des objectifs spécifiques, les stagiaires ont des mini projets qui sont présentés et analysés pendant la dernière semaine présentielle à Senlis.</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Introduction au biomimétisme, ou comment acquérir une démarche bio-inspirée.</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31401</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Biotechnologies</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://ceebios.com/les-4-poles/pole-formation/</href>
+      <cdmfr:linkName>Pôle Formation : CEEBIOS</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>La formation "introduction au biomimétisme" est l'une des premières offres du CEEBIOS (Centre d'Excellence Européen sur le Biomimetisme de Senlis). Cette nouvelle approche, inspirée par les compétences développées par la nature et le monde du vivant depuis 2,8 milliards d'années, apporte des ruptures sur les processus industriels, les organisations collectives voire sur les fondamentaux économiques. Elle est le pré requit à des formations "métiers". Les branches concernés sont principalement : la chimie, les matériaux, les transports, la construction, ...</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Développer l'innovation par une approche collaborative.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="01">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+5"/>
+    <learningObjectives>Accompagner le changement des paradigmes que la bio-inspiration induit sur et dans le développement du futur. A la fin de la formation,les participants auront acquis une vision renouvelée des enjeux du développement durable, soutenue par les potentiels d'innovations techniques, managériales et organisationnelles de l'approche biomimétique.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Cette formation est accessible à tout manager de premier ou deuxième niveau au sein de son entreprise. Il n'y a pas de connaissances spécifiques  requises, mais une maîtrise des processus de managements et/ou de productions est nécéssaire.
+	  </cdmfr:admissionDescription>
+      <studentPlaces>12</studentPlaces>
+      <teachingStart date="2015-03-17"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Pas de prérequis obligatoires, la formation étant transverse et pluridisciplinaire.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock></infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Les industriels et salariés managers qu'ils soient dans un environnement technique, markéting, recherche appliquée et de production.
+Ils peuvent dans les secteurs comme : la chimie, la médecins, la cosmétique, le luxe, les transports (automobiles, ferroviaires, aéronautique, maritime), la construction, les matériaux, ... Cette formation s'adresse aussi aux entrevues de starts-up, PME/PMI et aux collectivités locales (élus, techniciens, responsables de com, ...).</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Après chacune des périodes en FOAD, des quiz permettent aux experts de valider la maîtrise des compétences que les stagiaires doivent acquérir.</infoBlock>
+    </formOfAssessment>
+    <programDuration>32 h 30</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock></infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2 200 € HT</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Kalina Raskin pour le CEEBIOS, Thierry Buvat pour la Fondation UNIT.</infoBlock>
+	  <infoBlock>Contact administratif : Patricia Berche pour UNIT, Anthony Battistutta.</infoBlock>
+    </contacts>
+    <infoBlock>Cette formation s'inscrit dans le pôle "Formation" du CEEBIOS projet ambitieux d'un PLR du SUD de l'Oise.</infoBlock>
+    <searchword>bio-inspiration</searchword>
+    <searchword>économie circulaire</searchword>
+    <searchword>énergie renouvelable</searchword>
+    <searchword>résilience</searchword>   
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Centre d'Excellence Européen sur le Biomimetisme de Senlis</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>CEEBIOS</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-26"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

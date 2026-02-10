@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Ministère de l’Écologie (MEDDE), ENTE (École Nationale des Techniciens de l’Équipement)</cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>     
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation>
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>GéoAZ : Initiation à la géomatique en France</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">H</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Ingénieurs et cadres de l'industrie</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.ensg.eu/Catalogue-des-formations-continues</href>
+      <cdmfr:linkName>Catalogue des formations continues ENSG</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>La géomatique est née d'une histoire multimillénaire de la cartographie liée à l'émergence de l'informatique. Le programme de ce cours permet de se familiariser avec le vocabulaire et les concepts de la géomatique en brossant un portrait de ce secteur d'activité en France.
+Connaissances théoriques simplifiées, pratiques et usages seront abordés ici au rythme de l'apprenant, en fonction de ses besoins, dans un bouquet de contenus très complet.
+Le parcours sera accompagné par un tuteur qui aidera la personne formée à distance.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>La formation est un panorama complet de la géomatique, simple pour être accessible à tous et très complet pour donner une vue d'ensemble suffisamment exhaustive.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Parcourir le panorama technique de la géomatique</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Aucune condition d'accès</cdmfr:admissionDescription>
+      <studentPlaces>15</studentPlaces>
+      <teachingStart date="2017-05-16"/>
+      <registrationDeadline date="2017-05-16"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Une utilisation aisée de l'Internet (navigation, messagerie, consultation de vidéos).</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Toute personne, non spécialiste de la géomatique, ayant besoin d'une connaissance généraliste du domaine</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Quizz en auto-formation, exercices tutorés, exercices de groupe</infoBlock>
+    </formOfAssessment>
+    <programDuration>5 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation d'environ 5 semaines en e-learning (équivalente à 5 jours temps plein présentiel).
+- Généralités autour de l'information géographique : 
+De la réalité du terrain à des données géographiques
+Des données à leur affichage dans un SIG
+Acquérir et gérer des données géographiques
+État des lieux juridique et réglementaire
+- Présentation des bases de données nationales
+La notion de référentiel
+Les bases de données : bases de données gérées ou non par des services de l’État (RGE...)
+Exercices de manipulation
+- Comment produit-on l'information géographique ?
+Comment définit-on les coordonnées d'un point sur la Terre ?
+Topométrie, géodésie, lasergrammétrie ou levé laser, télédétection, photogrammétrie
+- Les fonctionnalités des SIG
+Présentation de quelques fonctionnalités des SIG
+Les outils logiciels les plus courants
+Les SIG nomades
+Les bases du webmapping
+Exercices de manipulation d'un SIG en ligne : ALPAGE
+- Cartographie
+Enjeux et définitions
+Le langage cartographique - éléments de sémiologie graphique
+Écritures en cartographie
+Étude des signes conventionnels : le langage des cartes topographiques
+La généralisation
+Habillage pour la cartographie
+Étude et conception d'une carte</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>1225€</expenses>
+    <contacts>
+      <infoBlock>ENSG 6-8 avenue Blaise Pascal - Champs-sur-Marne 77455 Marne La Vallée formationcontinue@ensg.eu</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>carte</searchword>
+    <searchword>base de données</searchword>
+    <searchword>géomatique</searchword>
+    <searchword>cartographie</searchword>
+    <searchword>donnée géoréférencée</searchword>
+	<searchword>géodésie</searchword>
+	<searchword>information géographique</searchword>
+	<searchword>photogrammétrie</searchword>
+	<searchword>sémiologie</searchword>
+	<searchword>SIG</searchword>
+	<searchword>télédétection</searchword>
+	<searchword>topographie</searchword>
+	<searchword>topométrie</searchword>
+	<searchword>webmapping</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale des Sciences Géographiques</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENSG</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-26"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

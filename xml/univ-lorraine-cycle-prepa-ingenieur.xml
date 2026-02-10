@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="">
+    <programID></programID>
+    <cdmfr:programName>
+      <cdmfr:text>Cycle Préparatoire Ingénieur Grandes Écoles</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.fc.univ-lorraine.fr</href>
+      <cdmfr:linkName>Formation continue de l'Université de Lorraine</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Non Diplomante">
+      <infoBlock>Il est composé d'un tronc commun suivi d’une option « mécanique », « électricité » ou « chimie ». D'autres options peuvent être envisagées selon le projet du candidat (agronomie, bois, numérique...). Le stagiaire étudie deux modules en parallèle ce qui représente 20 heures de travail personnel par semaine.
+La formation se déroule de début septembre à fin juin de l'année n+1.
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Algèbre
+    Analyse complexe
+    Analyse vectorielle
+    Apprentissage de l'algorithmique et de la programmation structurée
+    Electricité générale
+    Electromagnétisme
+    Electronique générale : apprentissage des outils et techniques
+    Electrostatique et magnétostatique
+    Electrotechnique générale : apprentissage des outils et techniques
+    Fonctions de plusieurs variables
+    Mécanique des fluides
+    Mécanique du solide
+    Outils et méthode du traitement du signal
+    Outils et techniques de la résistance des matériaux
+    Remise à niveau des compétences en anglais pour ingénieurs
+    Statistiques appliquées
+    Systèmes différentiels (4.0 crédits ECTS)
+    Séries (3.0 crédits ECTS)
+    Thermodynamique (5.0 crédits ECTS)</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="DUAP"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <levelCode codeSet="BAC+2"/>
+    <learningObjectives>Intégrer une 2ème année d'une école d'ingénieur du réseau Fontanet.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="">
+	  </cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>BAC+2 (DUT, BTS ou équivalent) justifiant de 3 années d'expérience professionnelle en qualité de technicien supérieur OU avoir bénéficié d’une procédure de Validation des Acquis Professionnels autorisant l’accès au cycle pour les non titulaires d’un diplôme de niveau III.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation à distance ou en présentiel</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup></targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Contrôles obligatoires d'aptitude en fin de cursus (test, projet, soutenance, mémoire).
+Des contrôles intermédiaires peuvent également être organisés.
+Présentation d'un projet professionnel devant un jury formé par des directeurs d'Ecole d'Ingénieur.</infoBlock>
+    </formOfAssessment>
+    <programDuration>Cycle préparatoire via Internet : 810 heures réparties sur 40 semaines à raison de 20 heures hebdomadaires.
+Cycle terminal en école : 2 ou 3 semestres selon les écoles</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Programme du cycle préparatoire :
+MATHÉMATIQUES : 300h
+PHYSIQUE GÉNÉRALE : 110h
+GÉNIE ÉLECTRIQUE : 90h
+GÉNIE MÉCANIQUE : 180h
+INFORMATIQUE ET CALCUL NUMÉRIQUE : 60h
+AUTOMATIQUE : 40h</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>- Cycle préparatoire : 6600 € hors frais d'inscription universitaire
+- Cycle terminal : en fonction des Écoles.
+</expenses>
+    <contacts>
+	  <infoBlock>Contact administratif : Commenville Denise denise.commenville @ univ-lorraine.fr 03.83.59.59.86</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>traitement du signal</searchword>
+    <searchword>réseaux de données</searchword>
+    <searchword>communication analogique</searchword>
+    <searchword>Réseau Téléphonique Commuté</searchword>
+    <searchword>radiocommunication</searchword>
+	<searchword>réseaux privés Virtuels</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-10-23"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

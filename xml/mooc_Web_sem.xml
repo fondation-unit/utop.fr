@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>UNIT</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>MOOC Web sémantique et web de données - session 2</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">15000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Informatique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>https://www.fun-mooc.fr/courses/inria/41002S02/session02/about</href>
+      <cdmfr:linkName>Web sémantique et Web de données</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>Le Web Sémantique déploie sur le Web quantités de données et schémas. Ce MOOC (Cours en ligne massivement ouvert) présente les standards (RDF, SPARQL, RDFS, OWL) pour passer d’un Web de documents à un Web de données liées, avec des applications dans tous nos domaines d’activité.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+3"/>
+    <learningObjectives>Ce cours propose de se former aux standards du Web de données et du Web sémantique. Il présente notamment les langages qui permettent : de représenter et de publier des données liées sur le Web (RDF) ; d'interroger et de sélectionner très précisément ces données à distance et au travers du Web (SPARQL) ; de représenter des vocabulaires et de raisonner et déduire de nouvelles données pour enrichir les descriptions publiées (RDFS, OWL, SKOS) ; et enfin, de tracer et de suivre l’histoire des données (VOiD, DCAT, PROV-O, etc.)
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Ce cours est ouvert à tous</cdmfr:admissionDescription>
+      <studentPlaces>Il n’y a pas de nombre limité de places.</studentPlaces>
+      <teachingStart date="2016-03-07"/>
+      <registrationDeadline date="2016-04-29"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Ce MOOC de niveau Licence est à destination de personnes ayant des connaissances de base en informatique, notamment sur les outils et langages classiques du Web (navigateurs Web, HTML de base, etc.), et la capacité à installer et exécuter des logiciels sur leurs machines (applications Java, etc.)</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Ce cours s’adresse à des étudiants ou ingénieurs en informatique, notamment dans le domaine des systèmes d'information. Il peut être suivi en complément d’une formation classique aux technologies de base du Web.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Quiz et exercices de fin de semaine.</infoBlock>
+    </formOfAssessment>
+    <programDuration>8 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Semaine 1 Vers un web de données liées
+Semaine 2 Le modèle de données RDF
+Semaine 3 Le langage de requête SPARQL
+Semaine 4 Ontologies et schémas RDFS
+Semaine 5 Formalisation en OWL
+Semaine 6 Des schémas particuliers
+Semaine 7 Vers plus d’intégration de données</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>gratuit</expenses>
+    <contacts>
+      <infoBlock>utop@inria.fr contact-mooclab@inria.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>MOOC</searchword>
+    <searchword>web sémantique</searchword>
+    <searchword>web de données</searchword>
+    <searchword>semantic web</searchword>
+    <searchword>linked data</searchword>
+	<searchword>RDF</searchword>
+	<searchword>ontologie</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut national de recherche en informatique et en automatique</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INRIA</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-04"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

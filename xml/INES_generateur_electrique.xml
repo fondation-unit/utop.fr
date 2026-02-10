@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:utop="http://www.utop.fr/xsd/CDM" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+   <cdmfr:habilitation>
+      <cdmfr:partnership>
+         <cdmfr:partnerName>
+            <cdmfr:text />
+         </cdmfr:partnerName>
+         <cdmfr:training>
+            <cdmfr:trainingStrategy>
+               <infoBlock />
+            </cdmfr:trainingStrategy>
+         </cdmfr:training>
+      </cdmfr:partnership>
+   </cdmfr:habilitation>
+   <program id="">
+      <programID />
+      <cdmfr:programName>
+         <cdmfr:text>Générateur électrique à combustible fossile</cdmfr:text>
+      </cdmfr:programName>
+      <!-- Référentiel RNCP : TEXTE -->
+      <cdmfr:programCode codeSet="certifRNCP" />
+      <!-- Référentiel DGESIP : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+      <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+      <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="ERASMUS" />
+      <cdmfr:programCode libSet="ERASMUS" />
+      <!-- Référentiel CITE97 : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="cite97" />
+      <cdmfr:programCode libSet="cite97" />
+      <!-- Référentiel FAP : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="FAP" />
+      <cdmfr:programCode libSet="FAP" />
+      <!-- Référentiel SISE : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDiscipSISE" />
+      <cdmfr:programCode libSet="sectDiscipSISE" />
+      <cdmfr:webLink>
+         <href>http://e-learning.ines-solaire.org/enrol/index.php?id=96</href>
+         <cdmfr:linkName>Générateur électrique à combustible fossile</cdmfr:linkName>
+      </cdmfr:webLink>
+      <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+      <cdmfr:programDescription nature="">
+         <infoBlock>Formation complète sur la thématique des groupes électrogènes</infoBlock>
+      </cdmfr:programDescription>
+      <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+      <qualification>
+         <cdmfr:qualificationDescription>
+            <infoBlock />
+         </cdmfr:qualificationDescription>
+         <cdmfr:credits ECTScredits="" />
+         <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+         <cdmfr:degree degree="" />
+         <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+         <cdmfr:profession>
+            <infoBlock />
+            <cdmfr:romeData romeCode="" romeLibel="" />
+         </cdmfr:profession>
+         <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+         <cdmfr:studyQualification>
+            <infoBlock />
+         </cdmfr:studyQualification>
+      </qualification>
+      <cdmfr:ppalTeachingLanguage teachingLang="Français" />
+      <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+      <levelCode codeSet="" />
+      <learningObjectives />
+      <admissionInfo>
+         <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+         <cdmfr:admissionDescription equiv="Non" />
+         <studentPlaces />
+         <teachingStart date="Ouverture en continu" />
+         <registrationDeadline date="" />
+      </admissionInfo>
+      <formalPrerequisites>
+         <infoBlock>Connaissances de base en énergétique</infoBlock>
+      </formalPrerequisites>
+      <!-- Lieu(x) de la formation en présence -->
+      <cdmfr:teachingPlace>
+         <cdmfr:CDMlocation>
+            <infoBlock>INES - Plateforme technique pédagogique 480 route d’Apremont - 73490 La Ravoire
+INES - Plateforme technique pédagogique 480 route d’Apremont - 73490 La Ravoire
+BTP CFA des Savoie
+319 rue du Clos - 73230 Saint-Alban-Leysse</infoBlock>
+         </cdmfr:CDMlocation>
+      </cdmfr:teachingPlace>
+      <targetGroup />
+      <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+      <formOfTeaching org="formInit" method="Non" />
+      <formOfTeaching org="formCont" method="Oui" />
+      <formOfTeaching org="formAppr" method="Non" />
+      <formOfTeaching org="formPro" method="Oui" />
+      <formOfTeaching org="formDist" method="Obligatoire" />
+      <formOfAssessment>
+         <infoBlock>Test de validation des acquis. Attestation de stage</infoBlock>
+      </formOfAssessment>
+      <programDuration>1,5 semaines soit 1h/jour ouvré : temps estimé d’apprentissage, variable selon la personne</programDuration>
+      <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+      <cdmfr:programStructure>
+         <infoBlock>PROGRAMME de formation A DISTANCE
+1 – PRESENTATION MOTEUR
+  Généralités
+  Description
+  Air
+  Refroidissement
+  Fuel
+  Huile
+  Régulation de vitesse
+  Notions diverses
+2 – EVOLUTIONS, REGULATION, MOTEURS DIESEL
+Types de régulateurs
+  Combustion
+  Emissions et rejections
+  Normes
+  Conséquences techniques
+3 – ALTERNATEUR, NOTIONS ET PRINCIPES DE BASE
+  Introduction
+  Le magnétisme
+  L’électromagnétisme
+  Principe de l’alternateur
+  La tension
+  Le courant
+  La fréquence
+  Le facteur de puissance
+  Les puissances
+4 – ALTERNATEUR ET TYPE D’EXCITATION
+Les excitations
+  Les régulateurs de tension
+5 – RAPPEL DE BASE ET COUPLAGE
+Régulation vitesse/tension
+  Couplage
+  Répartition P/Q
+  Consignation P/Q
+  Formules et divers
+6 – DIMENSIONNEMENT, APPLICATION ET REGIME DE NEUTRE
+  Définition de puissance
+  Comment dimensionner la puissance d’un groupe électrogène ?
+  Choix du réseau BT ou HTA
+  Pupitres et armoires
+  Refroidissement
+  Comment installer un groupe électrogène ?
+7 – TESTS DE VALIDATION DES ACQUIS
+QCM au fil de la formation</infoBlock>
+      </cdmfr:programStructure>
+      <expenses>300 € nets de taxe</expenses>
+      <contacts>
+         <infoBlock>Institut National de l’Energie Solaire - Plateforme Formation et Évaluation
+Bâtiment Hélios - 60 avenue Lac Léman - Savoie Technolac
+BP 258 - 73375 LE BOURGET-DU-LAC CEDEX
+Tél. : 04 79 26 44 30 – Fax : +33 (0)4 79 25 36 90 – E-mail : formation@ines-solaire.org – Site : www.ines-solaire.org</infoBlock>
+      </contacts>
+      <infoBlock />
+      <searchword>solaire photovoltaïque</searchword>
+      <searchword>generateur electrique</searchword>
+      <searchword>groupe electrogène</searchword>
+      <searchword>énergétique</searchword>
+      <searchword>combustible fossile</searchword>
+   </program>
+   <orgUnit>
+      <orgUnitName>
+         <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+      </orgUnitName>
+      <cdmfr:orgUnitSecondName>
+         <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+      </cdmfr:orgUnitSecondName>
+   </orgUnit>
+   <utop:utop>
+      <utop:dateEdition date="2016-09-27" />
+      <utop:utopTag>home-example</utop:utopTag>
+      <utop:utopTag />
+   </utop:utop>
+</CDM>

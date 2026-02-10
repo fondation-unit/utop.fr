@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>MOOC Initiation à HTML5 - Animations et jeux</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">15000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Informatique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>https://www.france-universite-numerique-mooc.fr/courses/inria/41002/Trimestre_1_2015/about</href>
+      <cdmfr:linkName>Introduction à HTML5 - Animations et jeux</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Une première partie sera consacrée à différents langages. Nous introduirons successivement les langages HTML, CSS et JavaScript. Dans ce MOOC, j'ai fait le choix de ne pas aborder tous ces langages de façon exhaustive, mais d'en présenter les grands principes et fonctionnalités et de les illustrer sur de nombreux exemples. Ce survol a pour objectif de vous doter d'une boîte à outils qui vous permettra de créer de petits projets et de vous rendre plus efficace si vous devez approfondir par la suite tel ou tel langage. En revanche, nous n'aborderons pas dans ce MOOC les langages ou architectures (tels que PHP, Ajax, MySQL) qui permettent à une page web de communiquer avec un serveur.
+
+Dans une deuxième partie, nous préciserons grâce à de nombreux exemples ce qu'HTML5 apporte de nouveau, notamment l'utilisation de contenus sonores et vidéo, les fonctionnalités de dessin, les animations et le glisser-déposer.
+
+La troisième et dernière partie est sans doute la plus importante. Elle sera l’occasion d'introduire des éléments de méthode. En effet, nous verrons qu'il est essentiel de séparer les tâches de conception et de développement. Nous proposerons une méthodologie de conception propre à la création de petites animations avec HTML5. Un projet sera l'occasion pour vous de mettre en oeuvre vos connaissances et d'utiliser toutes les briques mises en place.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <learningObjectives>Ce MOOC a pour objectif de doter les participants d'une boîte à outils qui leur permettra de créer de petits projets et de les rendre plus efficaces s'ils devaient approfondir par la suite tel ou tel langage.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Ce cours est ouvert à tous</cdmfr:admissionDescription>
+      <studentPlaces>1000</studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date="2016-04-19"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Vous devez posséder des notions d'algorithmique (structure d'un programme, boucles, logique conditionnelle (if then else...), tableaux de variables, fonctions</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup></targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Oui"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Quiz et exercices de fin de semaine.</infoBlock>
+    </formOfAssessment>
+    <programDuration>9 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock></infoBlock>
+    </cdmfr:programStructure>
+    <expenses>gratuit</expenses>
+    <contacts>
+      <infoBlock>Jean-Yves Plantec - plantec@insa-toulouse.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>MOOC</searchword>
+    <searchword>HTML5</searchword>
+    <searchword>javascript</searchword>
+    <searchword>CSS</searchword>
+    <searchword>jQuery</searchword>
+	<searchword>jeu</searchword>
+	<searchword>animation</searchword>
+	<searchword>développement web</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut National des Sciences Appliquées de Toulouse</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INSA Toulouse</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-02-04"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

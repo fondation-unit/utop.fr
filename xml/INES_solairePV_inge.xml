@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>INES CEA, SDMO, FLEXY ENERGY, 2IE</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Solaire PV et systèmes hybrides - parcours ingénieurs et techniciens</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://e-learning.ines-solaire.org/course/index.php?categoryid=48</href>
+      <cdmfr:linkName>INES Plateforme elearning</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock> 
+Formation 100% à distance dans le domaine du solaire photovoltaïque et des systèmes hybrides
+Atouts
+•        Formation complète regroupant les 4 thématiques suivantes : l’électricité, les systèmes photovoltaïques, les groupes électrogènes et le couplage
+•        Formation entièrement à distance permettant d’apprendre à son rythme, selon ses besoins, en temps et lieu choisis
+Pré-requis
+•        Maîtriser les sciences de l’ingénieur en énergétique
+Méthodes pédagogiques
+•        Ressources théoriques en ligne avec tests de validation des acquis
+•        Tutorat individualisé
+Validation
+•        Tests de validation des acquis
+•        Attestation de stage
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Techniciens, Ingénieurs, bureaux d'études pour le dimensionnement solaire photovoltaïque et les systèmes hybrides</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Être capable de dimensionner une installation PV et un groupe électrogène, comprendre le concept de couplage de ces deux sources de production
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces>50</studentPlaces>
+      <teachingStart date="Ouverture en continu"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Maîtriser les sciences de l’ingénieur en énergétique</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation entièrement à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Tout public</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Tests de validation des acquis, attestation de stage</infoBlock>
+    </formOfAssessment>
+    <programDuration>15 semaines soit 1h/jour ouvré, temps estimé d’apprentissage, variable selon la personne</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock> 
+ PROGRAMME  Électricité générale        
+
+1 – ÉLECTRICITÉ ET LES COMPOSANTS LINÉAIRES
+•         Introduction
+•         Historique
+•         Matériaux conducteurs et isolants
+•        Charges électriques et tension
+•        Intensité électrique
+•         Résistivité et résistance
+•         Puissance et énergie
+•         Lois de l’électricité
+•         Tension sinusoïdale
+•         Composants inductif et capacitif, impédances complexes
+•         Réseau électrique
+•         Stockage par batteries
+
+2 – LES COMPOSANTS NON LINÉAIRES
+•         La diode
+•         La cellule photovoltaïque
+•         Le transistor
+•         Hacheur et onduleur
+
+3 – TESTS DE VALIDATION DES ACQUIS
+      1 QCM à la fin des deux parties 
+        
+ PROGRAMME  Système photovoltaïque        
+        
+1 – GISEMENT SOLAIRE
+•         Géométrie solaire
+•         Rayonnement solaire
+•         Irradiance et irradiation
+•         Données solaires
+•        Détermination du masque
+
+2 – CELLULES ET MODULES PHOTOVOLTAIQUES
+•         Principes photovoltaïques et technologies
+•         Rendement de conversion
+•         Fabrication photovoltaïque
+•         Caractéristiques électriques
+•         Marché photovoltaïque
+•         Analyse de cycle de vie
+
+3 – ONDULEURS PHOTOVOLTAIQUES
+•        Type et principe
+•         Caractéristiques et marché
+
+4 – DIMENSIONNEMENT PHOTOVOLTAIQUE
+•         Installations photovoltaïques
+•         Pré-dimensionnement
+•         Rentabilité économique
+•         Dimensionnement
+•         Exercice didactique
+•         Logiciels
+•        Centrales photovoltaïques au sol
+•        Intégration du photovoltaïque dans le bâti        
+
+5 – SECURITE DES INSTALLATIONS PHOTOVOLTAIQUES
+•        Normes des composants
+•         Mise en œuvre
+
+6 – SUIVI PHOTOVOLTAIQUE
+•         Problématique du suivi
+•        Principe du suivi
+•        Mesure
+•        Système
+
+7 – ENTRETIEN ET MAINTENANCE
+
+8 – TESTS DE VALIDATION DES ACQUIS
+       7 QCM au fil de la formation        
+
+ PROGRAMME Groupe électrogène        
+        
+1 – MODULE MOTEUR
+•        Introduction
+•        Le moteur
+•        L’alternateur
+•        Les contrôles commandes
+•        L’installation
+•        Notions diverses
+
+2 – NORMES ET POLLUTION
+•        Types de régulateurs
+•        Combustion
+•        Emissions et rejections
+•        Normes
+•        Conséquences techniques
+
+3 – ALTERNATEUR, NOTIONS ET PRINCIPES DE BASE
+•        Introduction
+•        Le magnétisme
+•        L’électromagnétisme
+•        Principe de l’alternateur
+•        La tension
+•        Le courant
+•        La fréquence
+•        Le facteur de puissance
+•        Les puissances
+
+4 – ALTERNATEUR ET TYPE D’EXCITATION
+•        Les excitations
+•        Les régulateurs de tension        
+
+5 – RAPPEL DE BASE ET COUPLAGE
+•        Régulation vitesse/tension
+•        Couplage
+•        Répartition P/Q
+•        Consignation P/Q
+•        Formules et divers
+
+6 – DIMENSIONNEMENT, APPLICATION ET REGIME DE NEUTRE
+•        Définition de puissance
+•        Comment dimensionner la puissance d’un groupe électrogène
+•        Choix du réseau BT ou HTA
+•        Pupitres et armoires
+•        Refroidissement
+•        Comment installer un groupe électrogène
+
+7 – TESTS DE VALIDATION DES ACQUIS
+•        QCM au fil de la formation      
+
+ PROGRAMME  Couplage photovoltaïque / groupe électrogène
+
+1 – CONCEPT FLEXY ENERGY
+•        Enjeux énergétiques dans le monde : focus sur l’Afrique
+•        Le concept « Flexy Energy »
+•        Applications aux systèmes PV / DIESEL
+•        Perspectives de recherche et conclusion
+
+2 – DIMENSIONNEMENT DES GENERATEURS FLEXY ENERGY
+•        Rappel sur les systèmes hybrides
+•        Définition d’un générateur « Flexy Energy »
+•        Dimensionnement d’un générateur « Flexy Energy »   
+          
+</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>3120€ nets de taxe</expenses>
+    <contacts>
+      <infoBlock>Magali ROUE - Responsable pédagogique magali.roue@ines-solaire.org
+Sylvaine PLOUVIER - Responsable Multimédia sylvaine.plouvier@ines-solaire.org
+Francis DOMAIN - Expert solaire photovoltaïque - INES plateforme Formation et Evaluation francis.domain@ines-solaire.org</infoBlock>
+<infoBlock>Standard de la formation : formation@ines-solaire.org
+Nathalie ARBET - Responsable formations nathalie.arbet@ines-solaire.org
+Bertrand THERMOZ-LORCIERE - Technico-commercial bertrand.tl@ines-solaire.org
+Marion GRANDIN - assistante formations marion.grandin@ines-solaire.org</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>groupe électrogène</searchword>
+    <searchword>solaire photovoltaïque</searchword>
+    <searchword>électricité</searchword>
+	<searchword>dimensionnement</searchword>
+	<searchword>alternateur</searchword>
+	<searchword>moteur</searchword>
+	<searchword>système hybride</searchword>
+	<searchword>générateur</searchword>
+	<searchword>Flexy Energy</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-07-16"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

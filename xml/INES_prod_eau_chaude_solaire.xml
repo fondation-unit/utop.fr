@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>La thermique et l'hydraulique appliquées à la production d'eau chaude solaire</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://e-learning.ines-solaire.org/course/index.php?categoryid=54</href>
+      <cdmfr:linkName>INES Plateforme elearning</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock> 
+Formation entièrement à distance dans le domaine du solaire thermique, plus précisément la thématique du thermique et de l'hydraulique appliquées à la production d'eau chaude solaire
+Atouts
+•        Appréhender les spécificités des domaines du solaire thermique et de l’hydraulique
+•        Se former à distance à son rythme, selon ses besoins, en un temps et lieu choisis
+Aucune connaissance pré-requise
+Méthodes pédagogiques
+A distance : modules de formation multimédias avec tutorat individualisé
+Validation
+•        Test final de validation des acquis en ligne
+•        Attestation de stage
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Installateurs ou techniciens en solaire thermique</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Maîtriser les bases de la thermique et de l’hydraulique, savoir lire et analyser un schéma hydraulique, comprendre les principaux systèmes de production et de distribution d’eau chaude sanitaire 
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces>50</studentPlaces>
+      <teachingStart date="Ouverture en continu"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Aucune pré-requis</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation entièrement à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Toute personne désirant se former dans le domaine de l'hydraulique et de la thermique</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Oui"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>QCM au fil de la formation, test final
+</infoBlock>
+    </formOfAssessment>
+    <programDuration>5 semaines à distance, soit 1h/jour ouvré, temps estimé d’apprentissage, variable selon la personne</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock> 
+ 
+1 – INSTALLATIONS HYDRAULIQUES DE GÉNIE CLIMATIQUE
+•        Notions élémentaires
+•        Production
+•        Emission
+•        Distribution hydraulique
+•        Distribution énergétique
+•        Régulation
+
+
+2 – SOLAIRE THERMIQUE
+•        Les capteurs
+•        Explications de schémas
+    o        CESI
+    o        CESC
+    o        SSC
+•        Le dimensionnement des composants
+•        Analyse de schémas CESC
+•        Indicateurs de performance et outils de calcul        
+
+3 – TESTS DE VALIDATION DES ACQUIS
+•        QCM au fil de la formation
+•        Test final
+
+4 - BILAN DE LA FORMATION
+•        Enquête de satisfaction        
+            
+  </infoBlock>
+    </cdmfr:programStructure>
+    <expenses>800 € nets de taxe</expenses>
+    <contacts>
+      <infoBlock>Magali ROUE - Responsable pédagogique magali.roue@ines-solaire.org
+Sylvaine PLOUVIER - Responsable Multimédia sylvaine.plouvier@ines-solaire.org
+Xavier CHOLIN – Expert solaire thermique - INES plateforme Formation et Evaluation xavier.cholin@ines-solaire.org
+Pierre OBERLE – Expert solaire thermique - INES plateforme Formation et Evaluation pierre.oberle@ines-solaire.org</infoBlock>
+<infoBlock>Standard de la formation : formation@ines-solaire.org
+Nathalie ARBET - Responsable formations nathalie.arbet@ines-solaire.org
+Bertrand THERMOZ-LORCIERE - Technico-commercial bertrand.tl@ines-solaire.org
+Marion GRANDIN - assistante formations marion.grandin@ines-solaire.org</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>génie climatique</searchword>
+    <searchword>solaire thermique</searchword>
+    <searchword>installation hydraulique</searchword>
+	<searchword>distribution énergétique</searchword>
+	<searchword>eau chaude sanitaire</searchword>	
+	<searchword>dimensionnement</searchword>
+	<searchword>analyse de schéma CESC</searchword>
+	<searchword>capteur</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-07-16"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

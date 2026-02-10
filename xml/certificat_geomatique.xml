@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>École Hassania des Travaux Publics de Casablanca (EHTP)</cdmfr:text>
+      </cdmfr:partnerName>	  
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="International"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>Chaque étudiant réalise un stage, validé par le jury du CSGA.</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Certificat Supérieur Géomatique et Application</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">H</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Ingénieurs et cadres de l'industrie</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.ensg.eu/Formation-a-distance-ENSG-EHTP</href>
+      <cdmfr:linkName>CSGA – La formation à distance ENSG / EHTP</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Le Certificat Supérieur de Géomatique et Applications (CSGA) a pour objectif de permettre aux participants de bénéficier d'une formation spécialisée et pratique de haut niveau dans le domaine de la géomatique.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Le CSGA permet de maîtriser les différentes phases de la construction d'une information géographique de la modélisation de l'objet à la détermination de la géométrie de la surface de la Terre. Le CSGA permet de connaître les outils de manipulation de l'Information géographique tel que les Systèmes d'Information Géographique et de savoir présenter des informations graphiques sous forme de cartes notamment sur Internet.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="75">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Certificat d'école"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Ingénieur « prévention des risques », hydrologues, agronomes, urbanistes, archéologues...</infoBlock>
+        <cdmfr:romeData romeCode="M1808" romeLibel="Information géographique"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC +6 et plus"/>
+    <learningObjectives>L'objectif du CSGA est de donner une spécialité en géomatique à des professionnels déjà expérimentés dans une des sciences et techniques ayant vocation à exploiter la géomatique pour résoudre ses problèmes métiers (agronomie, urbanisme, transport, prévention des risques...).</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Master M2 ou M1 et 3 années d'expérience, pas de condition d'âge. Les candidats sont sélectionnés par un jury.</cdmfr:admissionDescription>
+      <studentPlaces>24</studentPlaces>
+      <teachingStart date="2016-10-11"/>
+      <registrationDeadline date="2016-10-11"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Pas de prérequis technique, mais avoir besoin d'utiliser la géomatique dans son métier et être motivé.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Pas de présentiel</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Personnes déjà titulaires d'un diplôme d'ingénieur ou d'un  M2 ou d'un M1 avec 3 années d'expériences.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Chaque module est évalué distinctement par des exercices, des quizz, des rapports ou des travaux à réaliser individuellement.</infoBlock>
+    </formOfAssessment>
+    <programDuration>14 mois</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Parcours du bloc théorique de 370 heures de formation organisées en 16 modules, puis un stage pratique de 12 à 16 semaines soutenu devant un jury et rédaction d'un rapport professionnel.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>3600€</expenses>
+    <contacts>
+      <infoBlock>Pascal Barbier, ENSG, 6-8 avenue Blaise Pascal - Champs sur Marne, 77455 Marne La Vallée, csga_info@ensg.eu</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>base de données</searchword>
+    <searchword>cartographie</searchword>
+    <searchword>géodésie</searchword>
+    <searchword>géomatique</searchword>
+    <searchword>information géographique</searchword>
+	<searchword>SIG</searchword>
+	<searchword>raster</searchword>
+	<searchword>télédétection</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale des Sciences Géographiques</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENSG</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-26"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

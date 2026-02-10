@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:utop="http://www.utop.fr/xsd/CDM" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+   <cdmfr:habilitation>
+      <cdmfr:partnership>
+         <cdmfr:partnerName>
+            <cdmfr:text />
+         </cdmfr:partnerName>
+         <cdmfr:partnershipType partnershipValueSet="Professionnel" />
+         <cdmfr:training>
+            <cdmfr:trainingStrategy>
+               <infoBlock />
+            </cdmfr:trainingStrategy>
+         </cdmfr:training>
+      </cdmfr:partnership>
+   </cdmfr:habilitation>
+   <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+      <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+      <cdmfr:programName>
+         <cdmfr:text>Electricité générale</cdmfr:text>
+      </cdmfr:programName>
+      <!-- Référentiel RNCP : TEXTE -->
+      <cdmfr:programCode codeSet="certifRNCP" />
+      <!-- Référentiel DGESIP : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDGESIP">31504</cdmfr:programCode>
+      <cdmfr:programCode libSet="sectDGESIP">Electrotechnique</cdmfr:programCode>
+      <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="ERASMUS" />
+      <cdmfr:programCode libSet="ERASMUS" />
+      <!-- Référentiel CITE97 : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="cite97" />
+      <cdmfr:programCode libSet="cite97" />
+      <!-- Référentiel FAP : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="FAP" />
+      <cdmfr:programCode libSet="FAP" />
+      <!-- Référentiel SISE : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDiscipSISE">12</cdmfr:programCode>
+      <cdmfr:programCode libSet="sectDiscipSISE">Génie civil</cdmfr:programCode>
+      <cdmfr:webLink>
+         <href>http://e-learning.ines-solaire.org/course/index.php?categoryid=53</href>
+         <cdmfr:linkName>INES Plateforme elearning</cdmfr:linkName>
+      </cdmfr:webLink>
+      <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+      <cdmfr:programDescription nature="">
+         <infoBlock>Formation 100% distance dans le domaine de l'électricité générale
+Atouts : se former à distance à son rythme, selon ses besoins, en temps et lieu choisis
+Méthodes pédagogiques
+•        Ressources théoriques en ligne avec tests de validation des acquis
+•        Tutorat individualisé
+Validation
+•         Test de validation des acquis
+•         Attestation de stage</infoBlock>
+      </cdmfr:programDescription>
+      <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+      <qualification>
+         <cdmfr:qualificationDescription>
+            <infoBlock />
+         </cdmfr:qualificationDescription>
+         <cdmfr:credits ECTScredits="" />
+         <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+         <cdmfr:degree degree="" />
+         <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+         <cdmfr:profession>
+            <infoBlock>Insertion dans le domaine du solaire photovoltaïque en tant qu'installateur ou tout autre métier technique</infoBlock>
+            <cdmfr:romeData romeCode="" romeLibel="" />
+         </cdmfr:profession>
+         <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+         <cdmfr:studyQualification>
+            <infoBlock />
+         </cdmfr:studyQualification>
+      </qualification>
+      <cdmfr:ppalTeachingLanguage teachingLang="Français" />
+      <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+      <levelCode codeSet="BAC+1" />
+      <learningObjectives>Acquérir les connaissances en électricité pour comprendre les bases du solaire photovoltaïque</learningObjectives>
+      <admissionInfo>
+         <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+         <cdmfr:admissionDescription equiv="Non">Aucune condition d'accès : toute personne désirant se former dans le domaine de l’électricité générale</cdmfr:admissionDescription>
+         <studentPlaces>50</studentPlaces>
+         <teachingStart date="Ouverture en continu" />
+         <registrationDeadline date="" />
+      </admissionInfo>
+      <formalPrerequisites>
+         <infoBlock>Pré-requis : maîtriser les Sciences de l’ingénieur dans le domaine électrique, connaître quelques notions de technologie de base</infoBlock>
+      </formalPrerequisites>
+      <!-- Lieu(x) de la formation en présence -->
+      <cdmfr:teachingPlace>
+         <cdmfr:CDMlocation>
+            <infoBlock>Formation entièrement à distance</infoBlock>
+         </cdmfr:CDMlocation>
+      </cdmfr:teachingPlace>
+      <targetGroup>Toute personne désirant se former dans le domaine de l’électricité générale</targetGroup>
+      <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+      <formOfTeaching org="formInit" method="Non" />
+      <formOfTeaching org="formCont" method="Oui" />
+      <formOfTeaching org="formAppr" method="Oui" />
+      <formOfTeaching org="formPro" method="Oui" />
+      <formOfTeaching org="formDist" method="Obligatoire" />
+      <formOfAssessment>
+         <infoBlock>QCM au fil de la formation, test final</infoBlock>
+      </formOfAssessment>
+      <programDuration>1 semaine soit 1h/jour, temps estimé d’apprentissage variable selon la personne</programDuration>
+      <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+      <cdmfr:programStructure>
+         <infoBlock>Programme détaillé
+1 – CONTENU PEDAGOGIQUE
+•        Termes et unités de base
+•         Groupements d’éléments
+•        Appareils de mesure
+•        Symbole normalisé et couleurs normalisées
+•        Appareils électriques courants et appellations courantes
+•        Fusible, disjoncteur et différentiel
+•        Mise à la terre
+•        Régime de neutre
+•        Tension continue et alternative
+•        Informations pratiques C15-100
+•        Pertes s en ligne et sections de câble
+•        Harmoniques
+•        Habilitations électriques
+2 – TESTS DE VALIDATION DES ACQUIS
+•        QCM au fil de la formation
+•        Test final
+3 – BILAN DE LA FORMATION
+•        Enquête de satisfaction</infoBlock>
+      </cdmfr:programStructure>
+      <expenses>300€</expenses>
+      <contacts>
+         <infoBlock>Responsable de la formation : Magali ROUE - Responsable pédagogique de la formation, Sylvaine PLOUVIER - Responsable Multimédia, Maxime VALLIN - Expert solaire photovoltaïque - INES plateforme Formation et Evaluation</infoBlock>
+         <infoBlock>Contact administratif : Nathalie ARBET - Responsable formations, Bertrand THERMOZ-LORCIERE - Technico-commercial, Marion GRANDIN - Assistante Formations</infoBlock>
+      </contacts>
+      <infoBlock />
+      <searchword>électricité générale</searchword>
+      <searchword>solaire photovoltaïque</searchword>
+      <searchword />
+   </program>
+   <orgUnit>
+      <orgUnitName>
+         <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+      </orgUnitName>
+      <cdmfr:orgUnitSecondName>
+         <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+      </cdmfr:orgUnitSecondName>
+   </orgUnit>
+   <utop:utop>
+      <utop:dateEdition date="2015-07-06" />
+      <utop:utopTag>home-example</utop:utopTag>
+      <utop:utopTag>utop-cofinance</utop:utopTag>
+   </utop:utop>
+</CDM>

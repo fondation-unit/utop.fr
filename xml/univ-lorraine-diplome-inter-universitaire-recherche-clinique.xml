@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet=""/>     
+	  <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Diplôme Inter Universitaire Formation à la recherche clinique et épidémiologique (FoRCE)</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.univ-lorraine.fr</href>
+      <cdmfr:linkName>Diplôme Inter Universitaire Formation à la recherche clinique et épidémiologique - Formation continue Université de Lorraine</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Acquérir une formation de base méthodologique en épidémiologie et recherche clinique, c'est-à-dire la recherche appliquée, réalisée chez des sujets malades et qui vise à améliorer les connaissances en matière de diagnostic et de prise en charge thérapeutique.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="30">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="DU"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+2"/>
+    <learningObjectives></learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date="2017-09-01"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>- Accès à internet indispensable, bonne connexion
+- Bases en informatique
+- Niveau Bac+3 ou équivalent</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>A distance et à Nancy</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>- Personnes en formation continue et permanente uniquement
+- Professionnels du champ de la santé, santé publique</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Un tutorat à distance est proposé pour chaque UE. Deux sessions de regroupement sont prévues à Nancy
+Les six UE doivent être validées pour obtenir le D.U.
+Les UE sont évaluées sous forme de contrôle continu et-ou examen sur table. Les examens ont lieu à Nancy </infoBlock>
+    </formOfAssessment>
+    <programDuration>300 heures</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Programme :
+Formation composée de 6 Unités d'Enseignement (UE)
+
+Cinq UE obligatoires :
+
+- Statistiques de base
+- Investigation en santé publique méthodes quantitatives
+- Mise en oeuvre des traitements de données quantitatives
+- Protocole d'investigation en Santé Publique
+- Stage d'initiation à la recherche
+
+Une UE à choisir parmi :
+
+- Recherche clinique et épidémiologique
+- Statistiques approfondies : modélisation et analyse de données</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2571 euros</expenses>
+    <contacts>
+     <infoBlock>Contact : catherine.cruaux@univ-lorraine.fr 03 83 68 35 24 - Responsable pédagogique : GUILLEMIN Francis</infoBlock>
+	  <infoBlock>Formation continue - Université de Lorraine  http://www.fc.univ-lorraine.fr</infoBlock>
+     </contacts>
+    <infoBlock>- Enseignement en e-learning
+- Tutorat en ligne
+- Deux sessions de regroupement organisées à Nancy
+- Capitalisation pour le Master Santé Publique et Environnement (30 ECTS)</infoBlock>
+    <searchword>santé publique</searchword>
+    <searchword>recherche clinique</searchword>
+    <searchword>épidémiologie</searchword>
+    <searchword>protocole d'investigation</searchword>
+    <searchword>méthodes statistiques</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-11-15"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

@@ -1,0 +1,31 @@
+.field_awesome > .form-item > div {
+  max-height : 450px;
+  overflow-y : scroll;
+  overflow-x : hidden;
+  border : 1px solid #ccc;
+  padding : 10px;
+
+}
+
+.field_awesome .form-item.active {
+  background: #9EBFEA;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.field_awesome .form-item.form-type-radio,
+.field_awesome .form-item.form-type-checkbox {
+  padding : 10px 5px;
+  display : inline-block;
+  width : 210px;
+}
+
+.field_awesome .form-item.form-type-radio label,
+.field_awesome .form-item.form-type-radio input,
+.field_awesome .form-item.form-type-checkbox input,
+.field_awesome .form-item.form-type-checkbox label {
+  cursor : pointer;
+}

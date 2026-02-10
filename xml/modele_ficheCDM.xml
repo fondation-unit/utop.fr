@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>ENTE Aix en Provence et Valenciennes</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>Aucun stage. Projet global pour valider l'acquisition de l'ensemble des compétences des 2 modules</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Bâtiment durable</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31204</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie civil et mécanique des sols</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS">06.4</cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS">Ingénierie civile</cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97">5B</cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97">DUT, BTS</cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">B</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Bâtiment, travaux publics</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE">12</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE">Génie civil</cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.iutenligne.net/</href>
+      <cdmfr:linkName>Formation continue uTOP</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Acquérir des connaissances techniques de base dans le domaine du bâtiment durable et savoir mobiliser les différentes ressources</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>2 MODULES DE 30 HEURES
+1 Les fondamentaux du bâtiment intégrant la dimension 'durable'
+- Exigences et enjeux à satisfaire
+- Notions de Résistance des Matériaux.
+- Fondations
+- Structure
+- Façades pleines
+- Menuiseries extérieures
+- Toiture
+- Revêtements muraux et sols
+- Chauffage
+- Ventilation
+- Production d'eau chaude sanitaire
+- Plomberie et équipements sanitaires
+- Électricité
+- Thermique du bâtiment.
+
+2 Bâtiment et développement durable
+- Développement durable et environnement.
+- La démarche HQE.
+- Notions de thermique et de confort hygrothermique.
+- Notions d'acoustique et de confort acoustique.
+- Principes de l’architecture bioclimatique.
+- Qualité sanitaire des bâtiments.
+- Accessibilité des bâtiments.
+- Domotique.
+- Risques naturels et technologiques.
+- Gestion des déchets d’activité.
+- Chantiers à faibles nuisances et gestion des déchets de chantiers.
+- Sécurité sur les chantiers.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="00">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Attestation de formation spécialisée (AFS)"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Technicien Supérieur du Bâtiment Spécialisation en Bâtiment Durable</infoBlock>
+        <cdmfr:romeData romeCode="K1111" romeLibel="Ingénierie et études du BTP"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock>Pas de poursuite d'études</infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+2"/>
+    <learningObjectives>Acquérir des connaissances techniques de base dans le domaine du bâtiment durable et savoir mobiliser les différentes ressources (réseau scientifique et technique, ressources documentaires, etc). A l'issue de cette formation, le niveau acquis correspond au L2.
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="non">Bases du Génie Civil</cdmfr:admissionDescription>
+      <studentPlaces>17</studentPlaces>
+      <teachingStart date="2015-09-01"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Aucun</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>A distance et regroupement dans le département Génie Civil partenaire le plus proche ou ENTE</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>- La formation s’adresse à toutes les entreprises du bâtiment concernées par le bâtiment durable. 
+    - Les acteurs ayant besoin d'une mise à niveau dans ce domaine.
+    - Les personnes à la recherche d'une double compétence.
+    - Par exemple, les donneurs d'ordre publics ou privés, les maîtres d'œuvre, les bureaux d'études, les agents de la fonction publique territoriale... </targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="non"/>
+    <formOfTeaching org="formCont" method="oui"/>
+    <formOfTeaching org="formAppr" method="non"/>
+    <formOfTeaching org="formPro" method="oui"/>
+    <formOfTeaching org="formDist" method="obligatoire"/>
+    <formOfAssessment>
+      <infoBlock></infoBlock>
+    </formOfAssessment>
+    <programDuration>60h</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Chaque module se compose d'un jour de regroupement (formation en présentiel ou classe virtuelle synchrone) et de périodes au cours desquelles les stagiaires suivent la formation à distance, tout en maintenant l'exercice de leur activité professionnelle. En amont de la formation, une évaluation de l'apprenant est possible afin d'offrir un parcours « sur mesure » correspondant à son niveau et à ses attentes. Chaque session peut accueillir un maximum de 30 apprenants. Le nombre de tuteurs sera adapté en fonction
+des effectifs de la session.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>450€ par module</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Stephan KESTELOOT stephan.kesteloot@univ-artois.fr
+      Contact administratif : Catherine CHAUMEIL catherine.chaumeil@unilim.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>Bâtiment Durable</searchword>
+    <searchword>développement durable</searchword>
+    <searchword>démarche HQE</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>IUT en Ligne</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>IUT en Ligne</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-07"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

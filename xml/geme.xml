@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>École nationale des sciences géographiques</cdmfr:text>
+      </cdmfr:partnerName>	  
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>	  
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>Trois projets tutorés au choix :
+1. Hydrologie couplage Q-Gis SCS/CN
+2. Hydrogéologie couplage Q-Gis WHAEM
+3. Inondation couplage Q-Gis Hec-Ras</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Géomatique et Métiers de l'Eau (GEME)</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href> http://engees.unistra.fr/formations/diplmesdtablissement/geme/</href>
+      <cdmfr:linkName>Formation professionnelle continue ENGEES</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>La formation Géomatique et Métiers de l'Eau (GEME) a pour objectif de permettre aux participants de bénéficier d'une spécialisation ou d'une double compétence dans l'utilisation des techniques de traitement de données spatialisées (SIG, télédétection,...) adaptées à la problématique des métiers de l'eau.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>GEME permet d'apprendre à utiliser un système d'information géographique (SIG), de manipuler les données dans le SIG, d'en sortir des cartes et des données pertinentes pour le métier exercé, et d' identifier les limites et les erreurs potentielles liées à son utilisation.
+GEME permet également de comprendre la démarche d'aide à la décision pour la gestion des eaux, de maitriser les grandeurs physiques liées aux métiers de l'eau, de comprendre la modélisation numérique et d'en connaître les développements actuels.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Ingénieur "prévention des risques", hydrologues, hydrogéologues, chargés d'études en environnement naturel, chef de projet rivière et milieu aquatique, responsable exploitation eau et assainissement, responsable SIG</infoBlock>
+        <cdmfr:romeData romeCode="A1303" romeLibel="Ingénierie en agriculture et environnement naturel"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>L'objectif de GEME est de permettre à des jeunes diplômés ou à des professionnels déjà expérimentés d'acquérir ou de remettre à niveau des compétences de base en géomatique et de maîtriser les concepts, méthodes et outils permettant de caractériser et de prédire la dimension spatiale de la gestion de l'eau au sein d'un territoire naturel, agricole ou urbain afin de mieux connaître l'aléa et de mieux mesurer les risques pour mieux les prévenir.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">M1 ou Licence avec quelques années d'expérience. Pas de condition d'âge. Les candidats sont sélectionnés par un jury.</cdmfr:admissionDescription>
+      <studentPlaces>20</studentPlaces>
+      <teachingStart date="2016-03-01"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Avoir suivi une initiation à Qgis et une formation en sciences de l'ingénieur.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Pas de présentiel</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Jeunes diplômés ayant déjà validé un M1 ou professionnels de niveau Licence, ayant quelques années d'expérience en tant que chargés d'études ou de projet en collectivités territoriales, organismes d'état ou bureaux d'études.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Oui"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Chaque module est évalué distinctement par des cartes synthétiques réalisées sous Q-Gis, des exercices de traitement géographique, des qcm de contrôle de connaissances, à réaliser individuellement. Pour le projet tutoré : un rapport écrit par groupe.</infoBlock>
+    </formOfAssessment>
+    <programDuration>3 mois</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation de 150h en e-learning sur trois mois, à raison de 12h par semaine environ, organisée en deux unités d'enseignement, chacune déclinée en modules :
+UE1 : Outils de la Géomatique et formation à Q-Gis
+UE2 : Apports de l'analyse spatiale aux Métiers de l'eau
+1. Gestion des eaux de surface
+2. Gestion des eaux souterraines
+3. Gestion des inondations
+4. Hydraulique urbaine</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2950€</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Pierre-Jean Dessez</infoBlock>
+	  <infoBlock>Contact(s) administratif(s) : info_fc@engees.unistra.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>géomatique</searchword>
+    <searchword>Qgis</searchword>
+    <searchword>hydrologie</searchword>
+    <searchword>bassin versant</searchword>
+    <searchword>cycle de l'eau</searchword>
+	<searchword>ruissellement</searchword>
+	<searchword>érosion</searchword>
+	<searchword>infiltration</searchword>
+    <searchword>ressource en eau</searchword>
+    <searchword>captage</searchword>
+    <searchword>crue</searchword>
+    <searchword>eau usée</searchword>
+	<searchword>gestion patrimoniale des réseaux</searchword>
+	<searchword>eau potable</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École nationale du génie de l'eau et de l'environnement de Strasbourg</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENGEES</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-26"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

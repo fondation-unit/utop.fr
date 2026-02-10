@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Le réseau des IUT, en particulier les départements GEA et TC</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	   <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Assistant de gestion polyvalent TPE/PME</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">71221</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Administration et gestion des entreprises (AES - Eco gestion)</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS">04.3</cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS">Comptabilité et gestion financière</cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97">5B</cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97">DUT, BTS</cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">L</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Gestion, administration des entreprises</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE">62</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE">PLURI SCIENCES ECONOMIQUES ET GESTION</cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.iutenligne.net/course/index.php?categoryid=3</href>
+      <cdmfr:linkName>Formation continue uTOP : Assistant de gestion polyvalent TPE/PME</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>La formation assistant de gestion polyvalent TP/PME se décline en 16 modules différents, dont la plupart sont indépendant les uns des autres. L'apprenant put donc choisir les modules qu'il souhaite suivre. Chaque module se déroule entièrement à distance (excepté un regroupement initial et une évaluation finale) pendant 8 semaines. Un module correspond à 30h de travail par apprenant.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Les modules suivants permettent d'aborder:
+- les fondamentaux juridiques pour la gestion d'une activité économique. 
+- les fondamentaux juridiques pour développer son activité. 
+- la bureautique avec la création et diffusion de document type texte et l'utilisation et exploitation d’un tableur.
+- La comptabilité ﬁnancière et l'utilisation de logiciels de comptabilité.
+- Les bases de la fiscalité (TVA, résultats de l’entreprise).
+- Le marketing opérationnel, marketing du point de vente, marketing direct, la gestion de la relation client et les techniques de phoning.
+- La gestion de projets.
+- Le E-marketing.
+- La négociation : achats et ventes
+- Les études et recherches Commerciales (études de marché / questionnaires/analyse)
+- Les marchés internationaux et les techniques de commerce international.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Attestation de formation spécialisée (AFS)"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="M1203" romeLibel="Comptabilité"/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <learningObjectives>Les objectifs de cette formation sont d’acquérir ou d’actualiser les compétences de base indispensables dans la gestion au quotidien d’une petite entreprise. Il s’agit ici de maîtriser le socle fondamental des techniques de gestion. Un apprenant  ayant suivi tous les modules devrait pouvoir orienter l’activité de l’entreprise en prenant des décisions pertinentes</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Il est préférable d’avoir le niveau BAC, mais un BEP dans le domaine peut convenir</cdmfr:admissionDescription>
+      <studentPlaces>17</studentPlaces>
+      <teachingStart date="2015-05-15"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Bac</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Tous les IUT partenaires en métropole et à la Réunion. La couverture sur le territoire nationale est donc acquise</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Ces certificats s’adressent : aux chargé(e)s  de la gestion (au sens large) au sein des petites et très petites entreprises, aux personnels dont les connaissances toujours dans le domaine de la gestion au sens large ont besoin d’être actualisées. Les métiers concernés sont ceux de la comptabilité, de l’aide à la gestion de PME, de la paie, du commerce, du management…
+</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Les apprenants sont évalués par les tests, les activités corrigées par les tuteurs, comme en contrôle continu. Un contrôle final sera organisé.</infoBlock>
+    </formOfAssessment>
+    <programDuration>8 semaines par module</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Chaque module dure 30h qui se déroule sur 8 semaines. Un module est constitué de cours(supports écrits, diapositives, vidéos...) d'activités, de tests.
+Un forum, les mails et une classe virtuelle permettent aux apprenants de travailler ensemble, sous le contrôle d'un tuteur.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>450€</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Xavier PUMIN IUT de Figeac pumin@univ-tlse2.fr</infoBlock>
+	   <infoBlock>Contact administratif : Catherine CHAUMEIL catherine.chaumeil@unilim.fr 05 55 86 73 06</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>gestion</searchword>
+    <searchword>comptabilité</searchword>
+    <searchword>bureautique</searchword>
+    <searchword>marketing</searchword>
+    <searchword>initiation au droit</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>IUT en Ligne</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>IUT en Ligne</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

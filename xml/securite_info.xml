@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Sécurité de l'information : 20 risques et parades</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">56001</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Information</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.telecom-lille.fr/securite</href>
+      <cdmfr:linkName>Formation sécurité de l'information : 20 risques et parades</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Cette formation pratique et concrète abordera 20 risques liés aux failles de sécurité de votre information et ses parades associées. Le consultant en sécurité illustrera le risque potentiel en présentant pour chacun des 20 cas, un exemple concret, son analyse, puis les parades pour s’en prémunir.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Les risques abordés : les objets personnels connectés au bureau, le mot de passe, le rangement de son bureau, les achats sur internet, les voyages à l’étranger, le cloud computing, les réseaux sociaux, l’usurpation d’identité, le télétravail, le manque de discrétion, la protection physique de l’information, les virus, la visite d’entreprise, la défaillance du matériel, la messagerie, le phishing, la rumeur, les fausses embauches, le licenciement, les smartphones.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Comprendre l’importance de la sécurité de l’information dans son activité professionnelle et personnelle, évaluer les risques et menaces, contribuer à un milieu sécuritaire et enfin minimiser les risques au quotidien</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Toute personne en activité
+	  </cdmfr:admissionDescription>
+      <studentPlaces>50</studentPlaces>
+      <teachingStart date="2015-06-15"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Aucun</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Cette formation est totalement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>La formation s'adresse à tout professionnel souhaitant protéger ses informations sensibles : déplacements, utilisation des réseaux sociaux, travail en openspace, achats sur internet,...</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock></infoBlock>
+    </formOfAssessment>
+    <programDuration>6 heures sur 1 mois</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Auto diagnostic préalable à la formation, 15 minutes d'autoformation par jour en vidéo, un accompagnement personnalisé, votre engagement à mettre en œuvre des parades adaptées à vos pratiques. Un web séminaire d'une heure, animé par notre consultant sécurité, auquel vous vous inscrivez dès que vous êtes prêts.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>450 € HT</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Jérôme GUENEZ jerome.guenez@telecom-lille.fr 03.20.33.55.83</infoBlock>
+	  <infoBlock>Contact administratif : Christophe Capion christophe.capion@telecom-lille.fr 03.20.33.55.04</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>securite de l'information</searchword>
+    <searchword>mot de passe</searchword>
+    <searchword>virus</searchword>
+    <searchword>phishing</searchword>
+    <searchword>usurpation d'identité</searchword>
+	<searchword>télétravail</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Télécom Lille</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

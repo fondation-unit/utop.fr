@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:utop="http://www.utop.fr/xsd/CDM" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+   <cdmfr:habilitation>
+      <cdmfr:partnership>
+         <cdmfr:partnerName>
+            <cdmfr:text />
+         </cdmfr:partnerName>
+         <cdmfr:training>
+            <cdmfr:trainingStrategy>
+               <infoBlock />
+            </cdmfr:trainingStrategy>
+         </cdmfr:training>
+      </cdmfr:partnership>
+   </cdmfr:habilitation>
+   <program id="">
+      <programID />
+      <cdmfr:programName>
+         <cdmfr:text>Efficacité énergétique des bâtiments</cdmfr:text>
+      </cdmfr:programName>
+      <!-- Référentiel RNCP : TEXTE -->
+      <cdmfr:programCode codeSet="certifRNCP" />
+      <!-- Référentiel DGESIP : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+      <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+      <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="ERASMUS" />
+      <cdmfr:programCode libSet="ERASMUS" />
+      <!-- Référentiel CITE97 : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="cite97" />
+      <cdmfr:programCode libSet="cite97" />
+      <!-- Référentiel FAP : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="FAP" />
+      <cdmfr:programCode libSet="FAP" />
+      <!-- Référentiel SISE : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDiscipSISE" />
+      <cdmfr:programCode libSet="sectDiscipSISE" />
+      <cdmfr:webLink>
+         <href>http://e-learning.ines-solaire.org/enrol/index.php?id=102</href>
+         <cdmfr:linkName>Efficacité énergétique des bâtiments</cdmfr:linkName>
+      </cdmfr:webLink>
+      <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+      <cdmfr:programDescription nature="">
+         <infoBlock>Appréhender les spécificités des domaines de la performance énergétique des bâtiments</infoBlock>
+      </cdmfr:programDescription>
+      <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+      <qualification>
+         <cdmfr:qualificationDescription>
+            <infoBlock />
+         </cdmfr:qualificationDescription>
+         <cdmfr:credits ECTScredits="" />
+         <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+         <cdmfr:degree degree="" />
+         <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+         <cdmfr:profession>
+            <infoBlock />
+            <cdmfr:romeData romeCode="" romeLibel="" />
+         </cdmfr:profession>
+         <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+         <cdmfr:studyQualification>
+            <infoBlock />
+         </cdmfr:studyQualification>
+      </qualification>
+      <cdmfr:ppalTeachingLanguage teachingLang="Français" />
+      <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+      <levelCode codeSet="" />
+      <learningObjectives>Maîtriser les connaissances nécessaires pour une bonne compréhension de la performance énergétique des bâtiments
+Connaitre les équipements techniques dans le domaine du génie énergétique</learningObjectives>
+      <admissionInfo>
+         <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+         <cdmfr:admissionDescription equiv="Non" />
+         <studentPlaces />
+         <teachingStart date="Ouverture en continu" />
+         <registrationDeadline date="" />
+      </admissionInfo>
+      <formalPrerequisites>
+         <infoBlock>Connaissances de base en physique</infoBlock>
+      </formalPrerequisites>
+      <!-- Lieu(x) de la formation en présence -->
+      <cdmfr:teachingPlace>
+         <cdmfr:CDMlocation>
+            <infoBlock>Formation à distance
+          Formation en présentiel à : INES - Bâtiment Hélios
+60 avenue Lac Léman - Savoie Technolac - 73370 Le Bourget-du-Lac</infoBlock>
+         </cdmfr:CDMlocation>
+      </cdmfr:teachingPlace>
+      <targetGroup>Toute personne désirant se former dans le domaine de l’efficacité énergétique</targetGroup>
+      <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+      <formOfTeaching org="formInit" method="Non" />
+      <formOfTeaching org="formCont" method="Oui" />
+      <formOfTeaching org="formAppr" method="Non" />
+      <formOfTeaching org="formPro" method="Oui" />
+      <formOfTeaching org="formDist" method="Obligatoire" />
+      <formOfAssessment>
+         <infoBlock>Tests de validation des acquis. Attestation de stage</infoBlock>
+      </formOfAssessment>
+      <programDuration>En présentiel : 3 jours
+      A distance :
+- Anticipation : 9h, temps estimé d’apprentissage, variable selon la personne
+- Consolidation : 1 année scolaire
+- Assimilation : selon les besoins</programDuration>
+      <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+      <cdmfr:programStructure>
+         <infoBlock>Programme de formation à distance :
+1 – CALCUL DE LA CHARGE THERMIQUE D’UN BATIMENT
+  Introduction
+  Paroi monocouche et multicouches
+  Transferts thermiques superficiels
+  Flux thermique, coefficients U et H
+  Calcul pour l’ensemble des parois
+  Baies vitrées
+  Ponts thermiques
+  Renouvellement d’air net infiltrations d’air
+  Application à l’ARMADILLO BOX
+2 – L’ETANCHEITE A L’AIR   Introduction
+  En théorie
+  En pratique
+  Evaluation
+  Exercice
+  3 – TESTS DE VALIDATION DES ACQUIS
+  QCM au fil de la formation
+  Test final
+4 BILAN DE LA FORMATION
+  Enquête de satisfaction
+
+Programme de formation en présentiel :
+Commun aux professeurs des lycées techniques et professionnels 4 demi-journées
+EFFICACITE ENERGETIQUE
+1 – LES DEPERDITIONS D’UN BATIMENT
+  Propriétés thermiques d’une paroi
+  Déperditions à travers une paroi
+  Les différentes caractéristiques des isolants
+  Déperditions liées au renouvellement d’air
+2 – BILAN ENERGETIQUE GLOBAL
+  Besoins en eau chaude sanitaire
+  Besoins en rafraîchissement
+  Consommation liée à l’éclairage
+  Bilan en énergie primaire
+3 – TRAVAUX DIRIGES
+Bilan énergétique d’une maison à partir d’une méthode simplifiée
+4 – LES OUTILS DE SIMULATION THERMIQUE
+Avantages de la simulation thermique dynamique
+Panorama des différents logiciels existants
+Présentation de quelques logiciels représentatifs du marché français
+5 - TRAVAUX PRATIQUES : INSTRUMENTATION ET SUIVI DE PERFORMANCE
+Retour d’expérience sur le suivi énergétique de logements individuels
+Présentation du matériel installé : échantillons, mise en œuvre
+6 – ATELIER ETANCHEITE A L’AIR
+  Les enjeux de la perméabilité à l’air
+  La mesure de l’étanchéité
+o Processus de mise en place d’un test d’étanchéité à l’air
+o Les objectifs du contrôle et les outils
+  Les points sensibles en conception et les solutions techniques
+  Travaux pratiques
+7 – TESTS DE VALIDATION DES ACQUIS
+  QCM au fil de la formation
+  Test final
+8 - BILAN DE LA FORMATION
+  Enquête de satisfaction</infoBlock>
+      </cdmfr:programStructure>
+      <expenses />
+      <contacts>
+         <infoBlock>Institut National de l’Energie Solaire - Plateforme Formation et Évaluation
+Bâtiment Hélios - 60 avenue Lac Léman - Savoie Technolac
+BP 258 - 73375 LE BOURGET-DU-LAC CEDEX
+Tél. : 04 79 26 44 30 – Fax : +33 (0)4 79 25 36 90 – E-mail : formation@ines-solaire.org – Site : www.ines-solaire.org</infoBlock>
+      </contacts>
+      <infoBlock />
+      <searchword>efficacité énergétique</searchword>
+      <searchword>bâtiment</searchword>
+      <searchword>charge thermique</searchword>
+      <searchword>étanchéité à l'air</searchword>
+      <searchword>simulation thermique</searchword>
+      <searchword>bilan énergétique global</searchword>
+   </program>
+   <orgUnit>
+      <orgUnitName>
+         <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+      </orgUnitName>
+      <cdmfr:orgUnitSecondName>
+         <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+      </cdmfr:orgUnitSecondName>
+   </orgUnit>
+   <utop:utop>
+      <utop:dateEdition date="2016-09-27" />
+      <utop:utopTag>home-example</utop:utopTag>
+      <utop:utopTag />
+   </utop:utop>
+</CDM>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Université Numérique Ingénierie et Technologie(UNIT)</cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>     
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Génie des Procédés - Génie Chimique</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31600</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie des procédés</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href></href>
+      <cdmfr:linkName></cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Formation continue, qualifiante, modulable en Génie des Procédés - Génie Chimique. Formation couvrant les niveaux licence et master, adaptable en fonction des apprenants. La formation se compose de grains pédagogiques que l'apprenant peut sélectionner selon ses besoins pour construire la formation adéquate.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>En fonction des choix de l'apprenant, différents concepts et notions pourront être acquis, comme par exemple : 
+Transfert de chaleur
+Transfert de matière
+Bilans et séparations
+Échanges de chaleur
+Dimensionnement 
+Optimisation de procédés
+Modularisation de procédés
+Thermodynamique et cinétique
+Opérations unitaires
+...
+</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Tous les métiers liés au domaine du génie des procédés et génie chimique : opérateurs, ingénieurs, techniciens, ...</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+	<levelCode codeSet="BAC+2"/>
+	<levelCode codeSet="BAC+3"/>
+	<levelCode codeSet="BAC+4"/>
+	<levelCode codeSet="BAC+5"/>
+    <learningObjectives>La formation permet d’acquérir les concepts et les notions fondamentales du GP - GC regroupés en cinq catégories : 
+Les fondamentaux
+Les méthodes
+Les opérations unitaires
+La conception et l'optimisation
+Les notions complémentaires
+En fonction des besoins de chaque apprenant, la formation permet également une mise à niveau des connaissances et des compétences ainsi qu'une ouverture sur la recherche dans ce domaine.
+Une évaluation permet de contrôler la bonne acquisition par les apprenants des notions et concepts proposés.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date="2016-09-01"/>
+      <registrationDeadline date="2016-06-01"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Formation scientifique niveau lycée ou licence</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Le public cible se divise en deux catégories principales : 
+. Les salariés du domaine (mise à niveau)
+. Les demandeurs d'emploi (réorientation...)</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Oui"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Non"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Le contrôle des connaissances se fait directement via le module de cours (QCM, exercices...). Des devoirs à rendre pourront être proposés par les enseignants en fonction des modules de cours choisis. Toutes les évaluations sont limitées dans le temps et leur réalisation se fait en 1 fois.</infoBlock>
+    </formOfAssessment>
+    <programDuration>En fonction des choix des apprenants</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Les enseignements se déroule à distance selon un planning type définit par les enseignants. Les apprenants suivent les cours correspondant aux différents grains pédagogiques qu'ils ont choisis pendant des périodes données. L'interaction avec l'enseignant se fait à distance (forum, mail...) mais des phases de regroupement peuvent être mise en place en fonction des besoins. Les actions d'évaluation sont planifiées à l'avance et doivent être réalisées avant des dates limites pour être validées.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses></expenses>
+    <contacts>
+      <infoBlock>Responsables de formation : Nicolas Dupuy, Éric Schaer, Viviane Renaudin, Thierry Cachot</infoBlock>
+	  <infoBlock>Contact administratif : Nicolas Dupuy nicolas.dupuy@univ-lorraine.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>génie des procédés</searchword>
+    <searchword>génie chimique</searchword>
+    <searchword>optimisation</searchword>
+    <searchword>dimensionnement</searchword>
+    <searchword>transfert de chaleur</searchword>
+	<searchword>transfert de matière</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-09-22"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

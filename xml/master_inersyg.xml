@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>     
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>Le stage n'est pas proposé car le public visé est d'un niveau Bac + 4 avec expérience professionnelle. Les procédures de VAE, VAP ou VES permettront de valider cette expérience afin de s'abstenir du stage. Toutefois, des sujets de stage pourront être proposés aux candidats n'ayant pas obtenu cette équivalence. Les dossiers d'inscription sont donc étudiés au cas par cas. Chaque module propose des projets à réaliser par les apprenants afin de mettre en pratique les bases théoriques présentées. Le suivi de l'avancement de ces projets et l'évaluation des travaux réalisés sont effectués par le ou les tuteurs du module.</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Master INERSYG : Transports Mobilités Réseaux - Parcours Ingénierie Ferroviaire et Systèmes Guidés</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31214</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie mécanique, productique, systèmes mécaniques, conception</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://formations.univ-valenciennes.fr/cdm/subProgram/FR_RNE_0593279U_PR_SOF-15667/FR_RNE_0593279U_PR_SOF-15672</href>
+      <cdmfr:linkName>Master transports mobilités réseaux : parcours ingénierie ferroviaire et systèmes guidés - INERSYG</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Un semestre de formation à distance avec des modules contenant des apports théoriques et pratiques pour la mise en oeuvre de compétences en conception, évaluation et analyse de système ferroviaires et guidés, mais applicables également à d'autres domaines. Pour valider le semestre, il faut valider 6 modules parmi les modules proposés. Le suivi de la formation est assuré par un ou plusieurs tuteurs qui sont constamment en interaction avec les apprenants. La formation propose des supports pédagogiques innovants pour accompagner les apprenants: un kit de formation pour mettre en pratique les notions théoriques proposées (e.g., un jeu de billes se déplaçant sur des rails afin d'étudier les risques de collision ou de déraillement; un boitier de commande pour la conduite de train; etc.). Une plateforme de simulation numérique est également proposée afin de sensibiliser les apprenants à la conception d’infrastructure ferroviaire, à la conception d'itinéraires, à la conduite de train et à la supervision de trafic.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Différentes compétences sont mises à l'honneur dans cette formation : savoir développer des systèmes numériques interactifs et communicants, savoir concevoir un système par différentes approches, savoir tester des modèles théoriques et en créer d’autres, savoir utiliser ou développer des NTIC, savoir analyser le fonctionnement d’un système.</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="30">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Master (LMD)"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Ingénieur en conception de systèmes
+Ingénieur en recherche et développement
+Ingénieur d’études
+Ingénieur conseil</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock>Doctorat</infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+5"/>
+    <learningObjectives>Un semestre de Master qui apporte des compétences spécifiques en conception de systèmes pouvant être appliquées à différents domaines (transport, production, logistique, service, énergie, etc.). Les exemples, projets ou exercices de cette formation appliquent ces compétences à l’ingénierie ferroviaire ou aux systèmes guidés. Outre le fait que des candidats peuvent vouloir compléter leurs compétences, les débouchés professionnels de ce Master sont variés : ingénieur en conception de systèmes, ingénieur en recherche et développement, ingénieur d’études, ingénieur conseil, etc.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Oui">Tout public salarié ou à la recherche d’emploi avec niveau Bac+4 minimum ou équivalent et expérience professionnelle. Application des procédures de VAE, VAP ou VES pour les équivalences et la dispense de modules et l'obtention du diplôme</cdmfr:admissionDescription>
+      <studentPlaces>40</studentPlaces>
+      <teachingStart date="2016-09-15"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Programmation</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Etablissement gestionnaire: Université de Valenciennes et du Hainaut-Cambrésis, UVHC, Le Mont Houy, 59313 Valenciennes Cedex 9</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Formation ouverte aux candidats ayant un niveau Maîtrise ou Master 1 ou équivalent, et ce avec expérience professionnelle. Cette formation est ouverte aux salariées du ferroviaire ou des systèmes guidés, mais ne nécessite pas de connaissances expertes dans ces domaines. Elle est donc adaptée à des candidats issus d'autres domaines d'application.
+ </targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Dans chaque module proposé, des résultats de travaux personnels sont à délivrer sur une plateforme collaborative afin d'être évalués par les tuteurs. Un examen est effectué en fin de module pour valider celui-ci. Dans le cadre de la formation à distance, l'examen pourra se faire à distance sous certaines conditions.</infoBlock>
+    </formOfAssessment>
+    <programDuration>équivalent à un semestre</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Pour un semestre de formation, 6 modules de 5 ECTS chacun sont à réaliser et à valider à distance dans le cadre de la formation continue. Différentes procédures peuvent être engagées pour identifier le nombre de modules à valider pour l'obtention du diplôme:
+- La VAE permet d'identifier le nombre de modules qu'un candidat doit valider pour obtenir le diplôme de Master INERSYG, sinon il doit valider 6 modules.
+- La VAP85 peut être engagée pour une demande d’équivalence de diplôme Bac + 4 
+- La V.E.S. peut valider des études supérieures pour obtenir tout ou partie du diplôme</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>2500 euros par module et par candidat (tarifs dégressifs importants pour les entreprises: se renseigner auprès du responsable de la formation)</expenses>
+    <contacts>
+      <infoBlock>Responsable de formation : Prof. Frédéric Vanderhaegen, mél: frederic.vanderhaegen@univ-valenciennes.fr, tél: +33 (0)3 27 51 14 80</infoBlock>
+	  <infoBlock>Contact administratif  : ISTV (Institut des Sciences et Techniques de Valenciennes), Service Formation Continue, Le Mont Houy,59313 Valenciennes Cedex 9, Dossier d'inscription: http://www.univ-valenciennes.fr/ISTV/inscrire-istv</infoBlock>
+     </contacts>
+    <infoBlock>Pas de date limite pour le dépôt des dossiers d'inscription: inscription tout au long de l'année.</infoBlock>
+    <searchword>NTIC</searchword>
+    <searchword>transport ferroviaire</searchword>
+    <searchword>systèmes guidés</searchword>
+    <searchword>analyse de risques</searchword>
+    <searchword>ingenierie mécanique</searchword>
+	<searchword>supervision de systèmes</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Valenciennes et du Hainaut-Cambrésis</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>UVHC</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-06-08"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

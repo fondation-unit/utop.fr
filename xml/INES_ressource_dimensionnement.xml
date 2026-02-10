@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>De la ressource au dimensionnement</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://e-learning.ines-solaire.org/course/index.php?categoryid=63</href>
+      <cdmfr:linkName>INES Plateforme elearning</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock> 
+Formation complète entièrement à distance dans le domaine du solaire photovoltaïque
+Atouts de la formation
+•        Appréhension globale des organes d’une installation photovoltaïque raccordée réseau
+•        Se former à distance à son rythme, selon ses besoins, en temps et lieu choisis
+Méthodes pédagogiques
+•        Ressources théoriques en ligne avec tests de validation des acquis
+•        Tutorat individualisé
+Validation des connaissances
+•        Tests de validation des acquis
+•        Attestation de stage
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Techniciens, installateurs systèmes solaires photovoltaïques</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Connaître les équipements techniques dans le domaine du génie énergétique, savoir dimensionner un projet photovoltaïque connecté au réseau et savoir vérifier le bon fonctionnement d’une installation PV connectée au réseau électrique
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Aucune condition d'accès</cdmfr:admissionDescription>
+      <studentPlaces>50</studentPlaces>
+      <teachingStart date="Ouverture en continu"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Aucun pré-requis</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Formation entièrement à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Tout public</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>QCM au fil de la formation, test final</infoBlock>
+    </formOfAssessment>
+    <programDuration>Durée de la formation :8 semaines soit 1h/jour ouvré : temps estimé d’apprentissage, variable selon la personne</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock> 
+ PROGRAMME DETAILLE
+        
+1 – GISEMENT SOLAIRE
+•        Géométrie solaire
+•        Rayonnement solaire
+•        Irradiance et irradiation
+•        Données solaires
+•        Détermination du masque
+
+2 – CELLULES ET MODULES PHOTOVOLTAIQUES
+•        Principes photovoltaïques et technologies
+•        Rendement de conversion
+•        Fabrication photovoltaïque
+•        Caractéristiques électriques
+•        Marché photovoltaïque
+•        Analyse de cycle de vie
+
+3 – ONDULEURS PHOTOVOLTAIQUES
+•        Type et principe
+•        Caractéristiques et marché
+
+4 – DIMENSIONNEMENT PHOTOVOLTAIQUE
+•        Installations photovoltaïques
+•        Pré-dimensionnement
+•        Rentabilité économique
+•        Dimensionnement
+•        Exercice didactique
+•        Logiciels
+•        Centrales photovoltaïques au sol
+•        Intégration du photovoltaïque dans le bâti        
+
+5 – SECURITE DES INSTALLATIONS PHOTOVOLTAIQUES
+•        Normes des composants
+•        Mise en œuvre
+
+6 – SUIVI PHOTOVOLTAIQUE
+•        Problématique du suivi
+•        Principe du suivi
+•        Mesure
+•        Système
+
+7 – ENTRETIEN ET MAINTENANCE
+
+8 – TESTS DE VALIDATION DES ACQUIS
+•        QCM au fil de la formation
+•        Test final
+
+9 – BILAN DE LA FORMATION
+•        Enquête de satisfaction     
+        
+</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>1680€ nets de taxe</expenses>
+    <contacts>
+      <infoBlock>Magali ROUE - Responsable pédagogique magali.roue@ines-solaire.org
+Sylvaine PLOUVIER - Responsable Multimédia sylvaine.plouvier@ines-solaire.org
+Francis DOMAIN - Expert solaire photovoltaïque - INES plateforme Formation et Evaluation francis.domain@ines-solaire.org</infoBlock>
+<infoBlock>Standard de la formation : formation@ines-solaire.org
+Nathalie ARBET - Responsable formations nathalie.arbet@ines-solaire.org
+Bertrand THERMOZ-LORCIERE - Technico-commercial bertrand.tl@ines-solaire.org
+Marion GRANDIN - assistante formations marion.grandin@ines-solaire.org</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>dimensionnement</searchword>
+    <searchword>photovoltaïque</searchword>
+    <searchword>gisement solaire</searchword>
+	<searchword>analyse de cycle de vie</searchword>
+	<searchword>géométrie solaire</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-07-16"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

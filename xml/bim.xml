@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Formation co-acréditése par l'École des Ponts ParisTech et l'École Spéciale des Travaux Publics, du Bâtiment et de l'Industrie
+		Partenaires académiques:
+        Centre Scientifique et Technique du Bâtiment
+        Ecole Nationale des Sciences Géographiques
+        École Nationale Supérieure d’Architecture de Marseille
+        École Nationale Supérieure d’Architecture de Paris Val-de-Seine
+        École Nationale Supérieure d'Architecture de Toulouse
+        École Nationale Supérieure des Arts et Métiers
+        Ecotec</cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>     
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Mastère Spécialisé: BIM, Conception intégrée et cycle de vie du bâtiment et des infrastructures</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31204</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie civil et mécanique des sols</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.enpc.fr/node/12839</href>
+      <cdmfr:linkName>Mastère Spécialisé BIM, Conception intégrée et cycle de vie du bâtiment et des infrastructures (BIM)</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Cette formation prépare les professionnels à manager un projet dans un contexte de maquette numérique et à utiliser le BIM pour concevoir de façon intégrée des projets de construction et d’exploitation de bâtiments neufs, existants, ou de rénovation, en prenant en compte, dans une approche « constructibilité », les contraintes et modèles des différents acteurs, en particulier les exigences énergétiques et environnementales. Les différents acteurs à « travailler ensemble » grâce à un système d’information interopérable, permettant de répondre à l’ensemble des exigences techniques, réglementaires et environnementales, avec des coûts maîtrisés.
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="75 (45 ECTS associés aux enseignements, 30 ECTS pour la thèse professionnelle)">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Mastère spécialisé"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Débouchés au sein d'organisations telles que: investisseurs et gestionnaires de parc immobilier, établissements financiers, maîtres d'ouvrage, agences d'architecture, bureaux d'études, entrepreneurs du bâtiment et des travaux publics, producteurs et négociants de matériels et matériaux, exploitants, utilisateurs.</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC +6 et plus"/>
+    <learningObjectives>
+Comprendre les enjeux du BIM et du processus de conception 
+Décrire les principaux paramètres de la dimension constructive
+Organiser les acteurs et le projet        
+Maîtriser les outils de management d’équipes et accompagner le changement
+Collecter et structurer les données
+Maîtriser les outils de représentation et de simulation
+Piloter le management opérationnel du projet
+Mettre en œuvre l’interopérabilité
+Maîtriser les technologies de l’information et de la communication
+Prendre en compte les aspects juridiques et économiques du BIM dans les contrats
+Connaître l’état de l’art du BIM à l’international
+Appliquer le BIM au cycle de vie de l’ouvrage et à la gestion patrimoniale
+Prendre en main les outils et appliquer des méthodes, dans le cas d’ateliers pratiques illustrant des scénarios de projets
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Le Mastère Spécialisé recrute des Cadres en poste et des jeunes diplômés de niveau Bac+5. D’autres parcours professionnels sont susceptibles d’être acceptés dans le cadre d’une dérogation.</cdmfr:admissionDescription>
+      <studentPlaces>60</studentPlaces>
+      <teachingStart date="2015-09-21"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>BAC+5 ou BAC+4 avec 3 ans d'expérience minimum</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>École des Ponts ParisTech (Champs sur Marnes), École Spéciale des Travaux Publics, du Bâtiment et de l'Industrie (Cachan)</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>A qui s'adresse la formation ?
+Architectes,
+Ingénieurs d’études,
+Maîtres d’œuvre,
+Conducteurs d’opération,
+Économistes de la construction,
+Géomètres,
+Maîtres d’ouvrage public et privé,
+Assistants maître d’ouvrage,
+Chefs de produits industriels,
+Exploitants,
+BIM managers,
+Directeurs de synthèse.
+ </targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>La validation du diplôme passe par le suivi des 400 heures de formation, le rendu de travaux notés, la rédaction et la soutenance d'une thèse professionnelle notée.</infoBlock>
+    </formOfAssessment>
+    <programDuration>400 heures</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>La formation articule ses différents modules thématiques autour d'un fil rouge: les "ateliers", où les savoirs théoriques sont mis en pratique dans le cadre de projets de groupes. Chaque mois de formation comprend 0,5 à 1 journée de formation à distance majoritairement asynchrone et 4 journées de formation en présentiel dont 2 journées dédiées aux modules thématiques et 2 journées dédiées aux ateliers.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>13 000 € tarif individuel; 15 000 € tarif entreprises partenaires; 16 000 € entreprises non partenaires</expenses>
+    <contacts>
+      <infoBlock>Responsable de formation : Céline Boua celine.boua@enpc.fr</infoBlock>
+	  <infoBlock>Contact administratif : Christine Gomes christine.gomes@enpc.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>BIM</searchword>
+    <searchword>Building Information Modeling</searchword>
+    <searchword>cycle de vie du bâtiment</searchword>
+    <searchword>conception intégrée</searchword>
+    <searchword>modélisation des données du bâtiment</searchword>
+	<searchword>interopérabilité</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École des Ponts ParisTech</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>École des Ponts ParisTech</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-06-18"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

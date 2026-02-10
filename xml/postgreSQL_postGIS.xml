@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Agrosup (Dijon), Société Geonef</cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>PostgreSQL® et PostGIS®</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">53000</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Géographie</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP">H</cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP">Ingénieurs et cadres de l'industrie</cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.ensg.eu/Catalogue-des-formations-continues</href>
+      <cdmfr:linkName>Catalogue des formations continues ENSG</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock>La diffusion des SIG s'accompagne aujourd'hui de leur interfaçage avec les autres SI de l'entreprise ou de l'administration.
+Dans le même temps, avec les nouveaux besoins en gestion patrimoniale des données et les impératifs de cohérence et de standardisation, le transfert de tout ou partie des données SIG dans un SGBD SQL est aujourd'hui un choix technique souvent pertinent. PostgreSQL®, référence parmi les SGBD libres, dispose avec PostGIS® d'une des meilleures cartouches spatiales disponibles. PostGIS® est utilisé par de nombreuses applications.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Après quelques rappels généraux sur les SIG, puis l'aide à l'installation des outils nécessaires : PostgreSQL et PostGIS (quelque soit le système d'exploitation de l'étudiant : Windows, Mac ou UNIX), sont abordés : le langage SQL et différents clients PostGIS (pgAdmin et QGIS). Puis sont enseignés la gestion des données vectorielles et raster et l'analyse spatiale sur ces mêmes données (vecteur et raster).</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>- Savoir mettre en œuvre PostGIS® au sein de PostgreSQL® ; 
+- maîtriser l'intégration de données et leur manipulation par des requêtes    spatiales ; 
+- comprendre les modèles de données, les spécificités du système, ses limites ;
+- posséder les clefs qui permettent la manipulation du logiciel au travers de clients tels que QGIS et pgAdmin III.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Justifier un intérêt technique pour le sujet.</cdmfr:admissionDescription>
+      <studentPlaces>15</studentPlaces>
+      <teachingStart date="2016-05-31"/>
+      <registrationDeadline date="2016-05-31"/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>- Connaissance des principes de l'information géographique et pratique d'un SIG. 
+	 - La connaissance de SQL et d'au moins un langage de programmation (type Java), voire de PHP, est un plus.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>La formation se déroule entièrement à distance.</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Tout utilisateur potentiel de PostGIS et PostgreSQL ayant une connaissance des principes de l'information géographique et de l'utilisation d'un SIG bureautique : responsables SIG, géomaticiens, utilisateurs de PostGreSQL®.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Chaque module est évalué par des exercices ou des travaux à réaliser individuellement, en autocorrection ou correction par le tuteur.</infoBlock>
+    </formOfAssessment>
+    <programDuration>3 semaines</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Formation de 3 semaines en e-learning, équivalente à 3 jours temps plein présentiel, organisée en 8 modules : 
+1 - Rappels
+Information géographique - SGBD - SIG (QGIS).
+2 - Installation de PostgreSQL et PostGIS
+Windows7 - Ubuntu14LTS - MAC OS X.
+3 - Introduction au langage SQL
+Fonctions de bases - Fonctions spatiales.
+4 - Approche de PostGIS par différents clients (pgAdmin III et QGIS)
+Création de base PostgreSQL / PostGIS - Intégration de fichiers shapes (shp). Indexation spatiale.
+5 - Analyse spatiale sur des données vecteur
+jointures attributaires - jointures spatiales.
+6 - Gestion des données vecteur
+Géométrie - Système de références et de projections.
+7 - Gestion des données raster
+Intégration de raster - Système de références et de projections.
+8 - Analyse spatiale sur des données raster
+Dérivées - Reclassification - Calcul de voisinage - Vectorisation.
+Il y a beaucoup d'exercices tout au long des modules, on approche 1/4ème du temps consacré à la théorie 3/4ème consacrés à la pratique.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>800€</expenses>
+    <contacts>
+      <infoBlock>ENSG 6-8 avenue Blaise Pascal - Champs-sur-Marne 77455 Marne La Vallée formationcontinue@ensg.eu</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>analyse spatiale</searchword>
+    <searchword>base de données</searchword>
+    <searchword>géomatique</searchword>
+    <searchword>PostgreSQL</searchword>
+    <searchword>raster</searchword>
+	<searchword>SGBD</searchword>
+	<searchword>SIG</searchword>
+	<searchword>PostGIS</searchword>
+	<searchword>télédétection</searchword>
+	<searchword>shape</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École Nationale des Sciences Géographiques</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENSG</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-05-26"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

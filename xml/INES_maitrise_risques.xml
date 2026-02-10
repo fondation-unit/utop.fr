@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+	  <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="National"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Maitriser les risques pour les équipes de secours</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://e-learning.ines-solaire.org/course/index.php?categoryid=63</href>
+      <cdmfr:linkName>INES Plateforme elearning</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="">
+      <infoBlock> 
+Formation entièrement à distance concernant les règles d’intervention en sécurité sur une installation photovoltaïque lors d’un incendie
+Atouts de la formation :
+Se former à distance à son rythme, selon ses besoins, en temps et lieu choisis
+Méthodes pédagogiques
+•        Modules de formation multimédias avec tutorat individualisé
+•        Possibilité de coupler la formation à distance avec une formation en présentiel
+Validation des connaissances
+•        Tests de validation des connaissances, à distance
+•        Attestation de stage
+</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree=""/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Pompiers, référents formation SDIS</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+1"/>
+    <learningObjectives>Comprendre les données techniques majeures d’une installation photovoltaïque, maîtriser les règles d’intervention en sécurité sur une installation photovoltaïque lors d’un incendie
+</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces>50</studentPlaces>
+      <teachingStart date="Ouverture en continu"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Connaissances techniques générales, maîtrise des interventions en sécurité sur incendie</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Institut National de l’Énergie Solaire
+Plateforme Formation et Évaluation
+Parc technologique de Savoie Technolac
+60 avenue Lac Léman
+Bâtiment Hélios
+73375 Le Bourget Du Lac
+
+tel +33 (0)4 79 26 44 30</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Formateurs référents au sein des SDIS ; toute personne justifiant de motivations dans ce domaine
+</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>QCM au fil de la formation, test final</infoBlock>
+    </formOfAssessment>
+    <programDuration>2 semaines et demi  à distance, soit 1h/jour ouvré : temps estimé d’apprentissage variable selon la personne</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock> 
+Programme détaillé : 
+        
+1 – IDENFIER UNE INSTALLATION PHOTOVOLATIQUE
+•        Distinguer solaire thermique et solaire photovoltaïque
+•        Du résidentiel à la centrale solaire au sol
+•        Comment fonctionne une installation photovoltaïque ?
+•        Produire de l'électricité : pour vendre ou pour consommer ?
+•        Signalisation des installations photovoltaïques
+
+2 – MAITRISER LES RISQUES
+•        Risques généraux liés à l’énergie électrique
+•        Connaitre les risques spécifiques aux installations photovoltaïques
+•        Quels sont les dispositifs mis en place pour assurer la sécurité de personnes et des biens
+•        Risques pour les sapeurs-pompiers en intervention
+
+3 – SOLUTIONS POUR PROTEGER L’ACTION DES SAPEURS-POMPIERS
+•        Dispositions de coupure côté courant alternatif
+•        Dispositions constructives visant à protéger l’installation photovoltaïque
+•        Dispositions de coupure pour sécuriser les dégagements vis-à-vis des circuits D.C.
+•        Installations photovoltaïques  avec tension photovoltaïque D.C. maintenus inférieure à 60 volts
+•        Dispositions complémentaires         
+
+4 – ADOPTER LES BONNES PRATIQUES EN INTERVENTION
+•        Traitement de l’alerte
+•        Evaluation du risque photovoltaïque sur la zone d’intervention
+•        Conduite des opérations en présence d’une installation photovoltaïque sous tension
+•        Déblai et désengagement des services publics de secours 
+
+8 – TESTS DE VALIDATION DES ACQUIS
+•        QCM au fil de la formation
+•        Test final
+
+9 – BILAN DE LA FORMATION 
+•        Enquête de satisfaction
+        
+</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>600€ nets de taxe</expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Magali ROUE - Responsable pédagogique de la formation magali.roue@ines-solaire.org, Sylvaine PLOUVIER - Responsable Multimédia sylvaine.plouvier@ines-solaire.org, standard de la formation : formation@ines-solaire.org</infoBlock>
+	  <infoBlock>Contact administratif : Nathalie ARBET - Responsable formations nathalie.arbet@ines-solaire.org, Bertrand THERMOZ-LORCIERE - Technico-commercial bertrand.tl@ines-solaire.org, Marion GRANDIN - Assistante Formations marion.grandin@ines-solaire.org</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword>risque incendie</searchword>
+    <searchword>solaire photovoltaïque</searchword>
+    <searchword>pompier</searchword>
+	<searchword>Service départemental d'incendie et de secours</searchword>
+	<searchword>SDIS</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-07-06"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

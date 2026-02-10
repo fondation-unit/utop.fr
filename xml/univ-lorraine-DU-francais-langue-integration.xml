@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+	  <cdmfr:partnershipType partnershipValueSet=""/>     
+	  <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>Diplôme Universitaire FLI (Français Langue d'Intégration)</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP"></cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://fc.univ-lorraine.fr/index.php</href>
+      <cdmfr:linkName>Diplôme Universitaire FLI - Formation continue Université de Lorraine</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Former les acteurs de la formation des adultes engagés dans un parcours d'intégration et d'insertion sociale, professionnelle et citoyenne (migrants apprenant le français ou francophones en situation d'illettrisme ne maitrisant pas les compétences clés).
+Le Diplôme Universitaire concerne les professionnels de la formation désirant évoluer ou se spécialiser ou des personnes souhaitant construire un projet professionnel de formateur d'adultes.
+Le programme et les contenus proposés par ce diplôme sont centrés autour de l'enseignement de la langue française pour les adultes en parcours d'intégration ou d'insertion.</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock></infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="DU"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+2"/>
+    <learningObjectives></learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non"></cdmfr:admissionDescription>
+      <studentPlaces></studentPlaces>
+      <teachingStart date="2016-11-01"/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>- Cursus universitaire au moins partiel dans le domaine de la didactique des langues.
+- Expérience professionnelle en formation linguistique des adultes.
+- Expérience comme bénévole dans le domaine de la formation linguistique des adultes.
+- Projet professionnel cohérent dans le domaine de la formation linguistique des adultes.
+Les candidats qui ne possèderaient pas une expérience ou une formation universitaire dans le domaine peuvent néanmoins poser leur candidature. La commission examinera tous les dossiers et tiendra compte de tous les éléments du CV et du projet professionnel présenté par le candidat.</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Entièrement à distance</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>- Professionnels du secteur de la formation des adultes.
+- Bénévoles dispensant des cours de français à des adultes.
+- Toute personne désirant construire un projet professionnel dans le domaine de la formation linguistique des adultes en insécurité (migrants, illettrisme, ...)
+- Etudiants désirant acquérir une formation complémentaire.</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock></infoBlock>
+    </formOfAssessment>
+    <programDuration>210 heures + 20 heures éventuelles de remise à niveau</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Programme :
+- Principes de base en sociolinguistique : fonctionnement de la langue en contexte, analyse des pratiques langagières en interaction, compétence de communication.
+- Description et analyse des dispositifs de formation linguistique des adultes migrants ; démarches pédagogiques et didactiques en formation linguistique d'adultes.
+- Analyse des besoins des apprenants pour l'utilisation et la création d'outils et d'activités adaptées.
+- Démarches, principes et outils pour l'apprentissage de l'écrit avec des adultes analphabètes, faiblement scolarisés ou en situation d'illettrisme.
+- Démarches pédagogiques et didactiques pour l'apprentissage du français à visée professionnelle.
+- Compétences clés et compétences de base : principes, dispositif et démarches pédagogiques.
+- Apprentissage du français et structures associatives de proximité.
+- Gestion de l'hétérogénéité des publics par le recours au numérique.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses>1700 euros</expenses>
+    <contacts>
+     <infoBlock>Contact : Veronique.Breton@univ-lorraine.fr 03 72 74 32 20 - Responsable pédagogique : ADAMI Hervé</infoBlock>
+	  <infoBlock>Formation continue - Université de Lorraine  http://www.fc.univ-lorraine.fr</infoBlock>
+     </contacts>
+    <infoBlock>C'est le seul diplôme universitaire à distance dispensant une formation de pointe exactement adaptée aux besoins des acteurs, des structures de formation et des demandes institutionnelles dans le domaine de la formation linguistique des adultes en insécurité langagière.
+Cette formation est dispensée par une équipe d'enseignants/chercheurs connaissant le terrain et appartenant à une équipe de recherche spécialisée sur ces questions.</infoBlock>
+    <searchword>formation des adultes</searchword>
+    <searchword>langue française</searchword>
+    <searchword>enseignement </searchword>
+    <searchword>illétrisme</searchword>
+    <searchword>insertion</searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>Université de Lorraine</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName></cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2016-11-15"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag></utop:utopTag>
+  </utop:utop>
+</CDM>

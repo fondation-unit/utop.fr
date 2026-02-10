@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text>Institut de Maintenance Aéronautique (IMA) de Bordeaux, Airbus</cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet="Académique"/>
+	  <cdmfr:partnershipType partnershipValueSet="Professionnel"/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock></infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>AL2M : Aircraft Life Management and Maintenance</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31103</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Contrôle des systèmes, productique, bureautique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.enac.fr/</href>
+      <cdmfr:linkName>Site Web de l'ENAC</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Diplôme">
+      <infoBlock>Cette formation est un mastère spécialisé, accrédité par la CGE.
+Elle se destine à former des professionnels ou étudiants niveau bac +5 du domaine aéronautique qui souhaiteraient acquérir des compétences en maintenance et management. La formation AL2M a été entièrement créée par l’Ecole Nationale de l’Aviation Civile (ENAC), en collaboration avec l’Institut de Maintenance Aéronautique (IMA) de Bordeaux, et en partenariat avec Airbus. Elle est constituée de 11 modules mensuels dispensés en anglais. La structure de ses modules a été pensée de telle sorte que les stagiaires ne sont « mobilisés » en classe que durant 3jours par mois. Les 3 semaines précédentes effectuées à distance nécessitent environ 8h de travail chacune, celui-ci peut donc être effectué tout en exerçant. Les 3 jours en présence d’un expert du domaine en question servent à échanger avec celui-ci, à réaliser une étude de cas en groupe et à l’évaluation finale du module. Chaque module est introduit et conclu lors d’une classe virtuelle et un suivi longitudinal est assuré par un tuteur.
+Les 11 modules sont les suivants :
+1 • Master introduction.
+2 • Aircraft basics.
+3 • Regulations and quality.
+4 • Maintenance program.
+5 • Aircraft reliability and improvement.
+6 • Safety and Human Factors.
+7 • Aircraft maintenance business.
+8 • Continuing Airworthiness management.
+9 • MRO.
+10 • OEM Customer Support.
+11 • Training.
+Certains sont purement d’ordre technique, d’autres sont d’avantage relatifs au business et management, ou à la sécurité et sa réglementation, enfin certains recouvrent plusieurs de ces 3 domaines, ce qui permet aux participants, d’avoir une vision globale de la maintenance aéronautique</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Management orienté Facteurs humains
+		Travail en groupe
+		Esprit de synthèse
+		Expression orale</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Mastère spécialisé"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock></infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Anglais"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet="BAC+6 ET PLUS"/>
+    <learningObjectives>A la fin de la formation, les apprenants auront acquis les derniers standards techniques et de management dans ce domaine, ce qui leur permettra d’agir de façon pragmatique à leur poste de travail. Ainsi ils seront à même de gérer les conséquences d’une hausse du trafic aérien dans la gestion du management et de la maintenance.</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Être majeur
+	  Diplôme requis : bachelor en sciences
+	  Expérience professionnelle : 3 ans
+</cdmfr:admissionDescription>
+      <studentPlaces>25</studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Les apprenants doivent être diplômés d’un bachelor en sciences, et faire preuve de 3 ans d’expérience professionnelle minimum, de préférence dans des entreprises aéronautiques</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Les parties à distance peuvent être réalisées depuis le lieu de travail ou le lieu de résidence de l’apprenant (ou tout autre endroit ayant accès à Internet). Les parties en présentiel ont lieu dans les locaux de l’organisme ayant effectué la demande de formation auprès de l’ENAC. 
+Les derniers modules ont lieu à l’ENAC Toulouse, pour permettre des visites telles que les locaux d’Airbus. Adresse de l’ENAC : 7 avenue Edouard Belin 31055 Toulouse Cedex 04</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Professionnels (ayant un niveau bac +5 ) du domaine de la maintenance aéronautique dans des pays où l’on observe une hausse importante du trafic aérien ; par exemple des cadres intermédiaires dans une compagnie aérienne ou dans une entreprise aéronautique, des enseignants d’universités partenaires,…</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>Sont pris en compte les résultats des présentations orales et rapports des études de cas (note collective) ainsi que les évaluations finales individuelles et en présentielle. Ceci pour chaque module.</infoBlock>
+    </formOfAssessment>
+    <programDuration>462 heures en Blended Learning s’organisant en 11 modules mensuels de 42h chacun répartis en 3 semaines de distanciel et 3 jours de présentiel.</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock>Chaque module est introduit et conclu par une classe virtuelle dirigée par un tuteur longitudinal, point de référence des apprenants tout au long de la formation. 24 heures d’étude de supports multimédias et de travail personnel sont demandées lors des 3 semaines à distance, puis les 3 jours de présentiel dirigés par un expert du domaine sont organisés comme suit : une demi-journée (3h) de remise à niveau, 12h d’étude de cas avec présentation orale, 1h d’examen final individuel, 1h de retours généraux sur la formation.</infoBlock>
+    </cdmfr:programStructure>
+    <expenses></expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Giovanni SIMONETTI giovanni.simonetti@enac.fr</infoBlock>
+	  <infoBlock>Contact administratif : formationcontinue@enac.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École nationale de l'aviation civile</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENAC</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

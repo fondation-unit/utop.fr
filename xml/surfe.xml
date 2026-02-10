@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:utop="http://www.utop.fr/xsd/CDM" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+  <cdmfr:habilitation>
+    <cdmfr:partnership>
+      <cdmfr:partnerName>
+        <cdmfr:text></cdmfr:text>
+      </cdmfr:partnerName>
+      <cdmfr:partnershipType partnershipValueSet=""/>
+      <cdmfr:training>
+        <cdmfr:trainingStrategy>
+          <infoBlock>A l’issue de la formation les participants devront effectuer un stage en entreprise de 4 semaines.</infoBlock>
+        </cdmfr:trainingStrategy>
+      </cdmfr:training>
+    </cdmfr:partnership>
+  </cdmfr:habilitation> 
+  <program id="FRUAIxxxxxxxxxxxxxxxxxx">
+    <programID>FRUAIxxxxxxxxxxxxxxxxxx</programID>
+    <cdmfr:programName>
+      <cdmfr:text>SURFE, Instructeur en sûreté de l’aviation</cdmfr:text>
+    </cdmfr:programName>
+    <!-- Référentiel RNCP : TEXTE -->
+    <cdmfr:programCode codeSet="certifRNCP"></cdmfr:programCode>
+    <!-- Référentiel DGESIP : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDGESIP">31103</cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDGESIP">Contrôle des systèmes, productique, bureautique</cdmfr:programCode>
+    <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="ERASMUS"></cdmfr:programCode>
+    <cdmfr:programCode libSet="ERASMUS"></cdmfr:programCode>
+   <!-- Référentiel CITE97 : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="cite97"></cdmfr:programCode>
+    <cdmfr:programCode libSet="cite97"></cdmfr:programCode>
+     <!-- Référentiel FAP : LISTE A CHOIX -->
+    <cdmfr:programCode codeSet="FAP"></cdmfr:programCode>
+    <cdmfr:programCode libSet="FAP"></cdmfr:programCode>
+    <!-- Référentiel SISE : LISTE A CHOIX-->
+    <cdmfr:programCode codeSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:programCode libSet="sectDiscipSISE"></cdmfr:programCode>
+    <cdmfr:webLink>
+      <href>http://www.enac.fr/</href>
+      <cdmfr:linkName>Site Web de l'ENAC</cdmfr:linkName>
+    </cdmfr:webLink>
+    <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+    <cdmfr:programDescription nature="Certification">
+      <infoBlock>Cette formation est destinée aux futurs instructeurs en sûreté de l’aviation. Ces derniers doivent être capables d’assurer une séance de formation à la sûreté en présentiel d’un volume de 3h. Les objectifs de la formation sont donc les suivants : adapter son animation, utiliser les cours de référence, concevoir une séquence pédagogique, évaluer un groupe. 
+Le contenu pédagogique de la formation est divisé en quatre modules :
+1 • Le premier module a pour but d’apporter les connaissances théoriques de base sur la pédagogie (courants, méthodes, …) et de tester les apprenants par une première mise en situation de pédagogue.
+2 • Le deuxième a la même vocation pour le domaine de la sûreté (historique, organisation cadre juridique,…) avec une vision pratique apportée par une visite d’aéroport et des démonstrations d’utilisation d’outils.
+3 • Le troisième module se sert de la mise en situation initiale pour un approfondissement et une application au domaine de la sûreté à travers des travaux pratiques.
+4 • Le quatrième module regroupe des chapitres sur la sûreté approfondis par thème : zonage, procédures passage, passagers indisciplinés, fret, reconnaissance d’image, sûreté aérienne.
+Après avoir effectué un stage en entreprise, les participants auront la possibilité de s’inscrire à chacune des épreuves prévues par la réglementation en vigueur relative à la certification des instructeurs</infoBlock>
+    </cdmfr:programDescription>
+    <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+    <qualification>
+      <cdmfr:qualificationDescription>
+        <infoBlock>Les compétences générales de la formation sont les suivantes :
+		- Savoir appliquer les principes de pédagogie initiale.
+		- Être capable d’expliquer les principes de la sûreté.
+		- Savoir appliquer la méthodologie de construction d’une séquence pédagogique.
+		- Être capable d’analyser et évaluer la production d’un élève.
+</infoBlock>
+      </cdmfr:qualificationDescription>
+      <cdmfr:credits ECTScredits="">
+      </cdmfr:credits>
+      <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+      <cdmfr:degree degree="Autre diplôme"/>
+      <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+      <cdmfr:profession>
+        <infoBlock>Instructeur en sûreté de l’aviation</infoBlock>
+        <cdmfr:romeData romeCode="" romeLibel=""/>
+      </cdmfr:profession>
+      <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+      <cdmfr:studyQualification>
+        <infoBlock></infoBlock>
+      </cdmfr:studyQualification>
+    </qualification>
+    <cdmfr:ppalTeachingLanguage teachingLang="Français"/>
+    <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+    <levelCode codeSet=""/>
+    <learningObjectives>Permettre aux participants d’acquérir les connaissances en matière de sûreté de l’aviation, en imagerie, en pédagogie et en management pour pouvoir accéder aux trois modules de certification en tant qu’instructeur en sûreté de l’aviation</learningObjectives>
+    <admissionInfo>
+    <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+      <cdmfr:admissionDescription equiv="Non">Age: 18 ans
+	  Diplôme minimum: bac
+	  L’admission à la formation est soumise à une sélection sur dossier et à un entretien. Nous consulter pour les modalités.
+	  </cdmfr:admissionDescription>
+      <studentPlaces>12</studentPlaces>
+      <teachingStart date=""/>
+      <registrationDeadline date=""/>
+     </admissionInfo>
+    <formalPrerequisites>
+      <infoBlock>Aucun</infoBlock>
+    </formalPrerequisites>
+    <!-- Lieu(x) de la formation en présence -->
+    <cdmfr:teachingPlace>
+      <cdmfr:CDMlocation>
+        <infoBlock>Les parties à distance peuvent être réalisées depuis le lieu de travail ou le lieu de résidence de l’apprenant (ou tout autre endroit ayant accès à Internet). Les parties en présentiel ont lieu dans les locaux de l’organisme ayant effectué la demande de formation auprès de l’ENAC. 
+Les derniers modules ont lieu à l’ENAC Toulouse, pour permettre des visites telles que les locaux d’Airbus. Adresse de l’ENAC : 7 avenue Edouard Belin 31055 Toulouse Cedex 04</infoBlock>
+      </cdmfr:CDMlocation>
+    </cdmfr:teachingPlace>
+    <targetGroup>Toute personne voulant exercer une activité d’instructeur en sûreté de l’aviation</targetGroup>
+    <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+    <formOfTeaching org="formInit" method="Non"/>
+    <formOfTeaching org="formCont" method="Oui"/>
+    <formOfTeaching org="formAppr" method="Non"/>
+    <formOfTeaching org="formPro" method="Oui"/>
+    <formOfTeaching org="formDist" method="Obligatoire"/>
+    <formOfAssessment>
+      <infoBlock>En cours de cursus et après le stage en entreprise, les participants auront la possibilité de s’inscrire à chacune des épreuves prévues par la réglementation en vigueur relative à la certification des instructeurs. Des séances de révisions et des tests sont prévus pour chaque module.
+</infoBlock>
+    </formOfAssessment>
+    <programDuration>276 heures en blended learning (des parties sont effectuées à distance et d’autres, telles que les mises en pratiques ou présentations orales, sont en présentiel)</programDuration>
+    <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+    <cdmfr:programStructure>
+      <infoBlock></infoBlock>
+    </cdmfr:programStructure>
+    <expenses></expenses>
+    <contacts>
+      <infoBlock>Responsable de la formation : Giovanni SIMONETTI giovanni.simonetti@enac.fr</infoBlock>
+	  <infoBlock>Contact administratif : formationcontinue@enac.fr</infoBlock>
+     </contacts>
+    <infoBlock></infoBlock>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+    <searchword></searchword>
+  </program>
+  <orgUnit>
+    <orgUnitName>
+      <text>École nationale de l'aviation civile</text>
+    </orgUnitName>
+    <cdmfr:orgUnitSecondName>
+      <cdmfr:secondName>ENAC</cdmfr:secondName>
+    </cdmfr:orgUnitSecondName>
+  </orgUnit>
+  <utop:utop>
+    <utop:dateEdition date="2015-04-10"/>
+    <utop:utopTag>home-example</utop:utopTag>
+    <utop:utopTag>utop-cofinance</utop:utopTag>
+  </utop:utop>
+</CDM>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:utop="http://www.utop.fr/xsd/CDM" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM https://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="francais">
+   <cdmfr:habilitation>
+      <cdmfr:partnership>
+         <cdmfr:partnerName>
+            <cdmfr:text />
+         </cdmfr:partnerName>
+         <cdmfr:training>
+            <cdmfr:trainingStrategy>
+               <infoBlock />
+            </cdmfr:trainingStrategy>
+         </cdmfr:training>
+      </cdmfr:partnership>
+   </cdmfr:habilitation>
+   <program id="">
+      <programID />
+      <cdmfr:programName>
+         <cdmfr:text>Formateur "Nouvelles énergies" - Les 3 solaires</cdmfr:text>
+      </cdmfr:programName>
+      <!-- Référentiel RNCP : TEXTE -->
+      <cdmfr:programCode codeSet="certifRNCP" />
+      <!-- Référentiel DGESIP : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDGESIP">31205</cdmfr:programCode>
+      <cdmfr:programCode libSet="sectDGESIP">Génie énergétique, génie nucléaire</cdmfr:programCode>
+      <!-- Référentiel ERASMUS : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="ERASMUS" />
+      <cdmfr:programCode libSet="ERASMUS" />
+      <!-- Référentiel CITE97 : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="cite97" />
+      <cdmfr:programCode libSet="cite97" />
+      <!-- Référentiel FAP : LISTE A CHOIX -->
+      <cdmfr:programCode codeSet="FAP" />
+      <cdmfr:programCode libSet="FAP" />
+      <!-- Référentiel SISE : LISTE A CHOIX-->
+      <cdmfr:programCode codeSet="sectDiscipSISE" />
+      <cdmfr:programCode libSet="sectDiscipSISE" />
+      <cdmfr:webLink>
+         <href>http://e-learning.ines-solaire.org/enrol/index.php?id=87</href>
+         <cdmfr:linkName>Formateur "Nouvelles énergies" - Les 3 solaires</cdmfr:linkName>
+      </cdmfr:webLink>
+      <!-- Valeur d'attribut = Nature du programme considéré : LISTE A CHOIX -->
+      <cdmfr:programDescription nature="">
+         <infoBlock>Maîtriser en tant qu’expert les savoirs et savoirs faire de l’un des 3 domaines suivants: performance énergétique du bâtiment, solaire thermique, solaire photovoltaïque
+Acquérir des compétences en ingénierie et pédagogie pour concevoir et animer des séances de formation
+Acquérir une expérience de terrain pour mieux appréhender les contraintes de l’activité opérationnelle et construire son retour d’expérience</infoBlock>
+      </cdmfr:programDescription>
+      <!-- Qualifications visés par la formation : compétences, aptitudes, notes, grades, droit de pratiquer, statut professionnel accordés aux titulaires de la qualification -->
+      <qualification>
+         <cdmfr:qualificationDescription>
+            <infoBlock />
+         </cdmfr:qualificationDescription>
+         <cdmfr:credits ECTScredits="" />
+         <!-- Niveau du diplôme décerné par l'établissement après la réussite des études : LISTE A CHOIX -->
+         <cdmfr:degree degree="" />
+         <!-- La gestion de l'information concernant les métiers se fait à l'aide de deux champs d'information obligatoire. Le premier permet une description textuelle des métiers visés, le second repose sur le code ROME -->
+         <cdmfr:profession>
+            <infoBlock />
+            <cdmfr:romeData romeCode="" romeLibel="" />
+         </cdmfr:profession>
+         <!-- Description des débouchés professionnels et orientations que permet cette formation -->
+         <cdmfr:studyQualification>
+            <infoBlock />
+         </cdmfr:studyQualification>
+      </qualification>
+      <cdmfr:ppalTeachingLanguage teachingLang="Français" />
+      <!-- Niveau d'études de la formation décrite : LISTE A CHOIX -->
+      <levelCode codeSet="" />
+      <learningObjectives />
+      <admissionInfo>
+         <!-- Valeur d'attribut = Validation des Acquis de l'Experience : BOOLÉEN -->
+         <cdmfr:admissionDescription equiv="Non" />
+         <studentPlaces />
+         <teachingStart date="Ouverture en continu" />
+         <registrationDeadline date="" />
+      </admissionInfo>
+      <formalPrerequisites>
+         <infoBlock>Expérience professionnelle d’une quinzaine d’années dans la réalisation, la conception, l’exploitation de bâtiments, d’installations solaires notamment. Ou bien être formateur ou formateur occasionnel dans le domaine technique. Ou bien encore justifier de réelles motivations pour ce métier</infoBlock>
+      </formalPrerequisites>
+      <!-- Lieu(x) de la formation en présence -->
+      <cdmfr:teachingPlace>
+         <cdmfr:CDMlocation>
+            <infoBlock>INES - Plateforme technique pédagogique 480 route d’Apremont - 73490 La Ravoire
+INES - Plateforme technique pédagogique 480 route d’Apremont - 73490 La Ravoire
+BTP CFA des Savoie
+319 rue du Clos - 73230 Saint-Alban-Leysse</infoBlock>
+         </cdmfr:CDMlocation>
+      </cdmfr:teachingPlace>
+      <targetGroup />
+      <!-- Forme proposée pour les enseignements et/ou description des modalités de la formation : BOOLÉEN ou LISTE A CHOIX-->
+      <formOfTeaching org="formInit" method="Non" />
+      <formOfTeaching org="formCont" method="Oui" />
+      <formOfTeaching org="formAppr" method="Non" />
+      <formOfTeaching org="formPro" method="Oui" />
+      <formOfTeaching org="formDist" method="Obligatoire" />
+      <formOfAssessment>
+         <infoBlock>Test de validation des acquis. Attestation de stage</infoBlock>
+      </formOfAssessment>
+      <programDuration>7 mois</programDuration>
+      <!-- Décrit comment la formation est structurée et de quels enseignements elle est composée-->
+      <cdmfr:programStructure>
+         <infoBlock>Programme de formation en présentiel
+Les programmes de formation en présentiel sont établis sur mesure, au cas par cas, en fonction
+des besoins exprimés du stagiaire dans la limite de (nombre) stages sur l’ensemble du parcours de
+formation
+
+PROGRAMME de formation A DISTANCE
+1 – RESSOURCE SOLAIRE
+  Géométrie solaire
+  Rayonnement solaire
+  Irradiance et irradiation   Données solaires
+  Détermination du masque
+2 – SOLAIRE THERMIQUE
+  Les capteurs
+  Explications de schémas
+  Le dimensionnement des composants
+  Analyse de schémas CESC
+  Indicateurs de performance et outils de calcul
+3 – SOLAIRE THERMIQUE COLLECTIF
+  L’eau chaude solaire collective
+  Les capteurs solaires thermiques
+  CESC, les schémas hydrauliques
+  Le dimensionnement des composants
+  Les logiciels de calcul
+  La réglementation anti-légionnelle
+  La nécessité d’un suivi
+4 – SOLAIRE THERMIQUE ET CHAUFFAGE
+  Installations hydrauliques en génie climatique
+  Calcul de la charge thermique de chauffage d’un bâtiment
+5 – ELECTRICITE GENERALE
+Les composants linéaires
+o Introduction
+o Historique
+o Matériaux conducteurs et isolants
+o Charges électriques et tension
+o Intensité électrique
+o Résistivité et résistance
+o Puissance et énergie
+o Lois de l’électricité
+o Tension sinusoïdale
+o Composants inductif et capacitif, impédances complexes
+o Réseau électrique
+o Stockage par batteries
+Les composants non linéaires
+o La diode
+o La cellule photovoltaïque o Le transistor
+o Hacheur et onduleur
+6 – SOLAIRE PHOTOVOLTAIQUE
+  Cellules et modules photovoltaïques
+  Onduleur photovoltaïque
+  Dimensionnement photovoltaïque
+  Sécurité des installations photovoltaïques
+  Suivi photovoltaïque
+  Entretien et maintenance
+7 – PERFORMANCE ENERGETIQUE DU BATIMENT
+  Thermique du bat
+  Etanchéité a l’air
+  Diagramme de l’air humide et bilan enthalpique d’un local
+  Dimensionnement d’une centrale de traitement d’air pour la climatisation d’un local
+8 – TESTS DE VALIDATION DES ACQUIS ET BILAN FORMATION</infoBlock>
+      </cdmfr:programStructure>
+      <expenses>18 000 € nets de taxe - Déjeuners compris</expenses>
+      <contacts>
+         <infoBlock>Institut National de l’Energie Solaire - Plateforme Formation et Évaluation
+Bâtiment Hélios - 60 avenue Lac Léman - Savoie Technolac
+BP 258 - 73375 LE BOURGET-DU-LAC CEDEX
+Tél. : 04 79 26 44 30 – Fax : +33 (0)4 79 25 36 90 – E-mail : formation@ines-solaire.org – Site : www.ines-solaire.org</infoBlock>
+      </contacts>
+      <infoBlock />
+      <searchword>solaire thermique</searchword>
+      <searchword>capteur solaire</searchword>
+      <searchword>chauffage</searchword>
+      <searchword>photovoltaïque</searchword>
+      <searchword>performance énergétique</searchword>
+   </program>
+   <orgUnit>
+      <orgUnitName>
+         <text>Institut National de l'Energie Solaire - Plateforme Formation et Evaluation</text>
+      </orgUnitName>
+      <cdmfr:orgUnitSecondName>
+         <cdmfr:secondName>INES Plateforme Formation et Evaluation</cdmfr:secondName>
+      </cdmfr:orgUnitSecondName>
+   </orgUnit>
+   <utop:utop>
+      <utop:dateEdition date="2016-09-27" />
+      <utop:utopTag>home-example</utop:utopTag>
+      <utop:utopTag />
+   </utop:utop>
+</CDM>
